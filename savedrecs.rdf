@@ -1,0 +1,3023 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/">
+    <bib:Article rdf:about="#item_82">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0095-2338"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Willett</foaf:surname>
+                        <foaf:givenname>P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barnard</foaf:surname>
+                        <foaf:givenname>J. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Downs</foaf:surname>
+                        <foaf:givenname>G. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Chemical similarity searching</dc:title>
+        <bib:pages>983-996</bib:pages>
+        <dc:date>NOV-DEC  1998</dc:date>
+        <dc:description>WOS:000077186300007</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0095-2338">
+        <dc:title>Journal of Chemical Information and Computer Sciences</dc:title>
+        <prism:volume>38</prism:volume>
+        <prism:number>6</prism:number>
+        <dc:identifier>DOI 10.1021/ci9800211</dc:identifier>
+        <dc:identifier>ISSN 0095-2338</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_83">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Journal of Chemical Information and Computer Sciences</dc:title>
+                <prism:volume>39</prism:volume>
+                <prism:number>6</prism:number>
+                <dc:identifier>DOI 10.1021/ci9903049</dc:identifier>
+                <dc:identifier>ISSN 0095-2338</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rusinko</foaf:surname>
+                        <foaf:givenname>A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Farmen</foaf:surname>
+                        <foaf:givenname>M. W.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lambert</foaf:surname>
+                        <foaf:givenname>C. G.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brown</foaf:surname>
+                        <foaf:givenname>P. L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Young</foaf:surname>
+                        <foaf:givenname>S. S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Analysis of a large structure/biological activity data set using recursive partitioning</dc:title>
+        <bib:pages>1017-1026</bib:pages>
+        <dc:date>NOV-DEC  1999</dc:date>
+        <dc:description>WOS:000083858200011</dc:description>
+    </bib:Article>
+    <bib:Article rdf:about="#item_84">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1549-9596"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fink</foaf:surname>
+                        <foaf:givenname>Tobias</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reymond</foaf:surname>
+                        <foaf:givenname>Jean-Louis</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Virtual exploration of the chemical universe up to 11 atoms of C, N, O, F: Assembly of 26.4 million structures (110.9 million stereoisomers) and analysis for new ring systems, stereochemistry, physicochemical properties, compound classes, and drug discovery</dc:title>
+        <bib:pages>342-353</bib:pages>
+        <dc:date>MAR-APR  2007</dc:date>
+        <dc:description>WOS:000245136100010</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1549-9596">
+        <dc:title>Journal of Chemical Information and Modeling</dc:title>
+        <prism:volume>47</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:identifier>DOI 10.1021/ci600423u</dc:identifier>
+        <dc:identifier>ISSN 1549-9596</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_85">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0027-8424"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>KING</foaf:surname>
+                        <foaf:givenname>RD</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>MUGGLETON</foaf:surname>
+                        <foaf:givenname>S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>LEWIS</foaf:surname>
+                        <foaf:givenname>RA</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>STERNBERG</foaf:surname>
+                        <foaf:givenname>MJE</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>DRUG DESIGN BY MACHINE LEARNING - THE USE OF INDUCTIVE LOGIC PROGRAMMING</dc:title>
+        <bib:pages>11322-11326</bib:pages>
+        <dc:date>DEC 1  1992</dc:date>
+        <dc:description>WOS:A1992KA90300046</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0027-8424">
+        <dc:title>Proceedings of the National Academy of Sciences of the United States of America</dc:title>
+        <prism:volume>89</prism:volume>
+        <prism:number>23</prism:number>
+        <dc:identifier>DOI 10.1073/pnas.89.23.11322</dc:identifier>
+        <dc:identifier>ISSN 0027-8424</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_86">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1433-7851"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ihlenfeldt</foaf:surname>
+                        <foaf:givenname>W. D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gasteiger</foaf:surname>
+                        <foaf:givenname>J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Computer-assisted planning of organic syntheses: The second generation of programs</dc:title>
+        <bib:pages>2613-2633</bib:pages>
+        <dc:date>1995</dc:date>
+        <dc:description>WOS:A1996TP36800002</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1433-7851">
+        <dc:title>Angewandte Chemie-International Edition</dc:title>
+        <prism:volume>34</prism:volume>
+        <prism:number>23-24</prism:number>
+        <dc:identifier>ISSN 1433-7851</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_87">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0570-0833"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>UGI</foaf:surname>
+                        <foaf:givenname>I.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>BAUER</foaf:surname>
+                        <foaf:givenname>J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>BLEY</foaf:surname>
+                        <foaf:givenname>K.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>DENGLER</foaf:surname>
+                        <foaf:givenname>A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>DIETZ</foaf:surname>
+                        <foaf:givenname>A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>FONTAIN</foaf:surname>
+                        <foaf:givenname>E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>GRUBER</foaf:surname>
+                        <foaf:givenname>B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>HERGES</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>KNAUER</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>REITSAM</foaf:surname>
+                        <foaf:givenname>K.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>STEIN</foaf:surname>
+                        <foaf:givenname>N.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>COMPUTER-ASSISTED SOLUTION OF CHEMICAL PROBLEMS - THE HISTORICAL DEVELOPMENT AND THE PRESENT STATE-OF-THE-ART OF A NEW DISCIPLINE OF CHEMISTRY</dc:title>
+        <bib:pages>201-227</bib:pages>
+        <dc:date>FEB  1993</dc:date>
+        <dc:description>WOS:A1993KQ28500004</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0570-0833">
+        <dc:title>Angewandte Chemie-International Edition in English</dc:title>
+        <prism:volume>32</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:identifier>DOI 10.1002/anie.199302011</dc:identifier>
+        <dc:identifier>ISSN 0570-0833</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_88">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Journal of Chemical Information and Computer Sciences</dc:title>
+                <prism:volume>34</prism:volume>
+                <prism:number>5</prism:number>
+                <dc:identifier>DOI 10.1021/ci00021a031</dc:identifier>
+                <dc:identifier>ISSN 0095-2338</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>FAULON</foaf:surname>
+                        <foaf:givenname>JL</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>STOCHASTIC GENERATOR OF CHEMICAL-STRUCTURE .1. APPLICATION TO THE STRUCTURE ELUCIDATION OF LARGE MOLECULES</dc:title>
+        <bib:pages>1204-1218</bib:pages>
+        <dc:date>SEP-OCT  1994</dc:date>
+        <dc:description>WOS:A1994PJ45900032</dc:description>
+    </bib:Article>
+    <bib:Article rdf:about="#item_89">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0002-7863"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenname>L. R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gasteiger</foaf:surname>
+                        <foaf:givenname>J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Knowledge discovery in reaction databases: Landscaping organic reactions by a self-organizing neural network</dc:title>
+        <bib:pages>4033-4042</bib:pages>
+        <dc:date>APR 30  1997</dc:date>
+        <dc:description>WOS:A1997WW93800021</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0002-7863">
+        <dc:title>Journal of the American Chemical Society</dc:title>
+        <prism:volume>119</prism:volume>
+        <prism:number>17</prism:number>
+        <dc:identifier>DOI 10.1021/ja960027b</dc:identifier>
+        <dc:identifier>ISSN 0002-7863</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_90">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0003-2700"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>CHU</foaf:surname>
+                        <foaf:givenname>KC</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>APPLICATIONS OF ARTIFICIAL INTELLIGENCE TO CHEMISTRY - USE OF PATTERN-RECOGNITION AND CLUSTER-ANALYSIS TO DETERMINE PHARMACOLOGICAL ACTIVITY OF SOME ORGANIC COMPOUNDS</dc:title>
+        <bib:pages>1181-1187</bib:pages>
+        <dc:date>1974</dc:date>
+        <dc:description>WOS:A1974T659900005</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0003-2700">
+        <dc:title>Analytical Chemistry</dc:title>
+        <prism:volume>46</prism:volume>
+        <prism:number>9</prism:number>
+        <dc:identifier>DOI 10.1021/ac60345a030</dc:identifier>
+        <dc:identifier>ISSN 0003-2700</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_91">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1359-7345"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bertz</foaf:surname>
+                        <foaf:givenname>S. H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sommer</foaf:surname>
+                        <foaf:givenname>T. J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Rigorous mathematical approaches to strategic bonds and synthetic analysis based on conceptually simple new complexity indices</dc:title>
+        <bib:pages>2409-2410</bib:pages>
+        <dc:date>DEC 21  1997</dc:date>
+        <dc:description>WOS:000071174600035</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1359-7345">
+        <dc:title>Chemical Communications</dc:title>
+        <prism:number>24</prism:number>
+        <dc:identifier>DOI 10.1039/a706192g</dc:identifier>
+        <dc:identifier>ISSN 1359-7345</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_92">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1042-6914"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paszkowicz</foaf:surname>
+                        <foaf:givenname>Wojciech</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Genetic Algorithms, a Nature-Inspired Tool: Survey of Applications in Materials Science and Related Fields</dc:title>
+        <bib:pages>174-197</bib:pages>
+        <dc:date>2009</dc:date>
+        <dc:description>WOS:000262515000011</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1042-6914">
+        <dc:title>Materials and Manufacturing Processes</dc:title>
+        <prism:volume>24</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:identifier>DOI 10.1080/10426910802612270</dc:identifier>
+        <dc:identifier>ISSN 1042-6914</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_93">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0306-0012"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Todd</foaf:surname>
+                        <foaf:givenname>M. H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Computer-aided organic synthesis</dc:title>
+        <bib:pages>247-266</bib:pages>
+        <dc:date>MAR  2005</dc:date>
+        <dc:description>WOS:000227779000017</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0306-0012">
+        <dc:title>Chemical Society Reviews</dc:title>
+        <prism:volume>34</prism:volume>
+        <prism:number>3</prism:number>
+        <dc:identifier>DOI 10.1039/b104620a</dc:identifier>
+        <dc:identifier>ISSN 0306-0012</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_94">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Journal of Chemical Information and Computer Sciences</dc:title>
+                <prism:volume>32</prism:volume>
+                <prism:number>4</prism:number>
+                <dc:identifier>DOI 10.1021/ci00008a013</dc:identifier>
+                <dc:identifier>ISSN 0095-2338</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>FAULON</foaf:surname>
+                        <foaf:givenname>JL</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>ON USING GRAPH-EQUIVALENT CLASSES FOR THE STRUCTURE ELUCIDATION OF LARGE MOLECULES</dc:title>
+        <bib:pages>338-348</bib:pages>
+        <dc:date>JUL-AUG  1992</dc:date>
+        <dc:description>WOS:A1992JF82200014</dc:description>
+    </bib:Article>
+    <bib:Article rdf:about="#item_95">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1467-5463"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fogel</foaf:surname>
+                        <foaf:givenname>Gary B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Computational intelligence approaches for pattern discovery in biological systems</dc:title>
+        <bib:pages>307-316</bib:pages>
+        <dc:date>JUL  2008</dc:date>
+        <dc:description>WOS:000256756400006</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1467-5463">
+        <dc:title>Briefings in Bioinformatics</dc:title>
+        <prism:volume>9</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:identifier>DOI 10.1093/bib/bbn021</dc:identifier>
+        <dc:identifier>ISSN 1467-5463</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_96">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0098-1354"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barnicki</foaf:surname>
+                        <foaf:givenname>S. D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Siirola</foaf:surname>
+                        <foaf:givenname>J. J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Process synthesis prospective</dc:title>
+        <bib:pages>441-446</bib:pages>
+        <dc:date>APR 15  2004</dc:date>
+        <dc:description>WOS:000189220500003</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0098-1354">
+        <dc:title>Computers &amp; Chemical Engineering</dc:title>
+        <prism:volume>28</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:identifier>DOI 10.1016/j.compchemeng.2003.09.030</dc:identifier>
+        <dc:identifier>ISSN 0098-1354</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_97">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1752-0509"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cho</foaf:surname>
+                        <foaf:givenname>Ayoun</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yun</foaf:surname>
+                        <foaf:givenname>Hongseok</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Park</foaf:surname>
+                        <foaf:givenname>Jin Hwan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenname>Sang Yup</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Park</foaf:surname>
+                        <foaf:givenname>Sunwon</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Prediction of novel synthetic pathways for the production of desired chemicals</dc:title>
+        <dc:date>MAR 28  2010</dc:date>
+        <dc:description>WOS:000278255800001</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1752-0509">
+        <dc:title>Bmc Systems Biology</dc:title>
+        <prism:volume>4</prism:volume>
+        <dc:identifier>DOI 10.1186/1752-0509-4-35</dc:identifier>
+        <dc:identifier>ISSN 1752-0509</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_98">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0712-4813"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>EMERENCIANO</foaf:surname>
+                        <foaf:givenname>VD</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>RODRIGUES</foaf:surname>
+                        <foaf:givenname>GD</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>MACARI</foaf:surname>
+                        <foaf:givenname>PAT</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>VESTI</foaf:surname>
+                        <foaf:givenname>SA</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>BORGES</foaf:surname>
+                        <foaf:givenname>JHG</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>GASTMANS</foaf:surname>
+                        <foaf:givenname>JP</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>FROMANTEAU</foaf:surname>
+                        <foaf:givenname>DLG</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>APPLICATIONS OF ARTIFICIAL-INTELLIGENCE IN ORGANIC-CHEMISTRY .17. NEW PROGRAMS IN THE SISTEMAT PROJECT</dc:title>
+        <bib:pages>91-98</bib:pages>
+        <dc:date>1994</dc:date>
+        <dc:description>WOS:A1994QY71800005</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0712-4813">
+        <dc:title>Spectroscopy-an International Journal</dc:title>
+        <prism:volume>12</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:identifier>ISSN 0712-4813</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_99">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0169-7439"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gasteiger</foaf:surname>
+                        <foaf:givenname>J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>The central role of chemoinformatics</dc:title>
+        <bib:pages>200-209</bib:pages>
+        <dc:date>MAY 26  2006</dc:date>
+        <dc:description>WOS:000237588100028</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0169-7439">
+        <dc:title>Chemometrics and Intelligent Laboratory Systems</dc:title>
+        <prism:volume>82</prism:volume>
+        <prism:number>1-2</prism:number>
+        <dc:identifier>DOI 10.1016/j.chemolab.2005.06.022</dc:identifier>
+        <dc:identifier>ISSN 0169-7439</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_100">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1860-7179"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Degen</foaf:surname>
+                        <foaf:givenname>Joerg</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wegscheid-Gerlach</foaf:surname>
+                        <foaf:givenname>Christof</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zaliani</foaf:surname>
+                        <foaf:givenname>Andrea</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rarey</foaf:surname>
+                        <foaf:givenname>Matthias</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>On the Art of Compiling and Using 'Drug-Like' Chemical Fragment Spaces</dc:title>
+        <bib:pages>1503-1507</bib:pages>
+        <dc:date>OCT  2008</dc:date>
+        <dc:description>WOS:000260765200004</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1860-7179">
+        <dc:title>Chemmedchem</dc:title>
+        <prism:volume>3</prism:volume>
+        <prism:number>10</prism:number>
+        <dc:identifier>DOI 10.1002/cmdc.200800178</dc:identifier>
+        <dc:identifier>ISSN 1860-7179</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_101">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0928-2866"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gasteiger</foaf:surname>
+                        <foaf:givenname>J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pfortner</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sitzmann</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hollering</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sacher</foaf:surname>
+                        <foaf:givenname>O.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kostka</foaf:surname>
+                        <foaf:givenname>T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Karg</foaf:surname>
+                        <foaf:givenname>N.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Computer-assisted synthesis and reaction planning in combinatorial chemistry</dc:title>
+        <bib:pages>245-264</bib:pages>
+        <dc:date>2000</dc:date>
+        <dc:description>WOS:000089857000015</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0928-2866">
+        <dc:title>Perspectives in Drug Discovery and Design</dc:title>
+        <prism:volume>20</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:identifier>DOI 10.1023/A:1008745509593</dc:identifier>
+        <dc:identifier>ISSN 0928-2866</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_102">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0269-8889"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Richard</foaf:surname>
+                        <foaf:givenname>A. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Application of artificial intelligence and computer-based methods to predicting chemical toxicity</dc:title>
+        <bib:pages>307-317</bib:pages>
+        <dc:date>DEC  1999</dc:date>
+        <dc:description>WOS:000085413900001</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0269-8889">
+        <dc:title>Knowledge Engineering Review</dc:title>
+        <prism:volume>14</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:identifier>DOI 10.1017/S0269888999004038</dc:identifier>
+        <dc:identifier>ISSN 0269-8889</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_103">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1093-3263"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenname>K.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenname>L. S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yuan</foaf:surname>
+                        <foaf:givenname>Q.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Luo</foaf:surname>
+                        <foaf:givenname>S. W.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yao</foaf:surname>
+                        <foaf:givenname>J. H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yuan</foaf:surname>
+                        <foaf:givenname>S. G.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zheng</foaf:surname>
+                        <foaf:givenname>C. Z.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brandt</foaf:surname>
+                        <foaf:givenname>J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Construction of a generic reaction knowledge base by reaction data mining</dc:title>
+        <bib:pages>427-+</bib:pages>
+        <dc:date>2001</dc:date>
+        <dc:description>WOS:000170738800004</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1093-3263">
+        <dc:title>Journal of Molecular Graphics &amp; Modelling</dc:title>
+        <prism:volume>19</prism:volume>
+        <prism:number>5</prism:number>
+        <dc:identifier>DOI 10.1016/S1093-3263(00)00102-9</dc:identifier>
+        <dc:identifier>ISSN 1093-3263</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_104">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1386-2073"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marechal</foaf:surname>
+                        <foaf:givenname>Eric</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Chemogenomics: A discipline at the crossroad of high throughput technologies, biomarker research, combinatorial chemistry, genomics, cheminformatics, bioinformatics and artificial intelligence</dc:title>
+        <bib:pages>583-586</bib:pages>
+        <dc:date>SEP  2008</dc:date>
+        <dc:description>WOS:000259446300002</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1386-2073">
+        <dc:title>Combinatorial Chemistry &amp; High Throughput Screening</dc:title>
+        <prism:volume>11</prism:volume>
+        <prism:number>8</prism:number>
+        <dc:identifier>DOI 10.2174/138620708785739961</dc:identifier>
+        <dc:identifier>ISSN 1386-2073</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_105">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0165-5515"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Willett</foaf:surname>
+                        <foaf:givenname>Peter</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>From chemical documentation to chemoinformatics: 50 years of chemical information science</dc:title>
+        <bib:pages>477-499</bib:pages>
+        <dc:date>AUG  2008</dc:date>
+        <dc:description>WOS:000258255200009</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0165-5515">
+        <dc:title>Journal of Information Science</dc:title>
+        <prism:volume>34</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:identifier>DOI 10.1177/0165551507084631</dc:identifier>
+        <dc:identifier>ISSN 0165-5515</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_106">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0003-2670"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>GRAY</foaf:surname>
+                        <foaf:givenname>NAB</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>ARTIFICIAL-INTELLIGENCE IN CHEMISTRY</dc:title>
+        <bib:pages>9-32</bib:pages>
+        <dc:date>JUL 1  1988</dc:date>
+        <dc:description>WOS:A1988P691200003</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0003-2670">
+        <dc:title>Analytica Chimica Acta</dc:title>
+        <prism:volume>210</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:identifier>DOI 10.1016/S0003-2670(00)83874-X</dc:identifier>
+        <dc:identifier>ISSN 0003-2670</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_107">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0165-9936"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bonastre</foaf:surname>
+                        <foaf:givenname>A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ors</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peris</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Distributed expert systems as a new tool in analytical chemistry</dc:title>
+        <bib:pages>263-271</bib:pages>
+        <dc:date>MAY  2001</dc:date>
+        <dc:description>WOS:000169278500010</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0165-9936">
+        <dc:title>Trac-Trends in Analytical Chemistry</dc:title>
+        <prism:volume>20</prism:volume>
+        <prism:number>5</prism:number>
+        <dc:identifier>DOI 10.1016/S0165-9936(01)00058-9</dc:identifier>
+        <dc:identifier>ISSN 0165-9936</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_108">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0021-9673"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mulholland</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Preston</foaf:surname>
+                        <foaf:givenname>P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hibbert</foaf:surname>
+                        <foaf:givenname>D. B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haddad</foaf:surname>
+                        <foaf:givenname>P. R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Compton</foaf:surname>
+                        <foaf:givenname>P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Teaching a computer ion chromatography from a database of published methods</dc:title>
+        <bib:pages>15-24</bib:pages>
+        <dc:date>JUL 19  1996</dc:date>
+        <dc:description>WOS:A1996UZ35500003</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0021-9673">
+        <dc:title>Journal of Chromatography A</dc:title>
+        <prism:volume>739</prism:volume>
+        <prism:number>1-2</prism:number>
+        <dc:identifier>DOI 10.1016/0021-9673(96)00045-3</dc:identifier>
+        <dc:identifier>ISSN 0021-9673</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_109">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1434-193X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mehta</foaf:surname>
+                        <foaf:givenname>G.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barone</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chanon</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Computer-aided organic synthesis - SESAM: A simple program to unravel &quot;hidden&quot; restructured starting materials skeleta in complex targets</dc:title>
+        <bib:pages>1409-1412</bib:pages>
+        <dc:date>JUL  1998</dc:date>
+        <dc:description>WOS:000074819800020</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1434-193X">
+        <dc:title>European Journal of Organic Chemistry</dc:title>
+        <prism:number>7</prism:number>
+        <dc:identifier>ISSN 1434-193X</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_110">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1367-6733"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hanessian</foaf:surname>
+                        <foaf:givenname>S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Man, machine and visual imagery in strategic synthesis planning: Computer-perceived precursors for drug candidates</dc:title>
+        <bib:pages>798-819</bib:pages>
+        <dc:date>NOV  2005</dc:date>
+        <dc:description>WOS:000233331700011</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1367-6733">
+        <dc:title>Current Opinion in Drug Discovery &amp; Development</dc:title>
+        <prism:volume>8</prism:volume>
+        <prism:number>6</prism:number>
+        <dc:identifier>ISSN 1367-6733</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_111">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Spectroscopy-an International Journal</dc:title>
+                <prism:volume>13</prism:volume>
+                <prism:number>3</prism:number>
+                <dc:identifier>ISSN 0712-4813</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Emerenciano</foaf:surname>
+                        <foaf:givenname>V. D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Melo</foaf:surname>
+                        <foaf:givenname>L. D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rodrigues</foaf:surname>
+                        <foaf:givenname>G. D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gastmans</foaf:surname>
+                        <foaf:givenname>J. P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Application of artificial intelligence in organic chemistry .19. Pattern recognition and structural determination of flavonoids using C-13-NMR spectra</dc:title>
+        <bib:pages>181-190</bib:pages>
+        <dc:date>SEP  1997</dc:date>
+        <dc:description>WOS:A1997YA74200001</dc:description>
+    </bib:Article>
+    <bib:Article rdf:about="#item_112">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Journal of Chemical Information and Computer Sciences</dc:title>
+                <prism:volume>38</prism:volume>
+                <prism:number>4</prism:number>
+                <dc:identifier>DOI 10.1021/ci970115v</dc:identifier>
+                <dc:identifier>ISSN 0095-2338</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Krebsbach</foaf:surname>
+                        <foaf:givenname>D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gelernter</foaf:surname>
+                        <foaf:givenname>H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sieburth</foaf:surname>
+                        <foaf:givenname>S. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Distributed heuristic synthesis search</dc:title>
+        <bib:pages>595-604</bib:pages>
+        <dc:date>JUL-AUG  1998</dc:date>
+        <dc:description>WOS:000074976400007</dc:description>
+    </bib:Article>
+    <bib:Article rdf:about="#item_113">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1520-6106"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fortuna</foaf:surname>
+                        <foaf:givenname>Sara</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Troisi</foaf:surname>
+                        <foaf:givenname>Alessandro</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>An Artificial Intelligence Approach for Modeling Molecular Self-assembly: Agent-based Simulations of Rigid Molecules</dc:title>
+        <bib:pages>9877-9885</bib:pages>
+        <dc:date>JUL 23  2009</dc:date>
+        <dc:description>WOS:000268139600032</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1520-6106">
+        <dc:title>Journal of Physical Chemistry B</dc:title>
+        <prism:volume>113</prism:volume>
+        <prism:number>29</prism:number>
+        <dc:identifier>DOI 10.1021/jp9030442</dc:identifier>
+        <dc:identifier>ISSN 1520-6106</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_114">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0259-9791"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wieland</foaf:surname>
+                        <foaf:givenname>T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Combinatorics of combinatorial chemistry</dc:title>
+        <bib:pages>141-157</bib:pages>
+        <dc:date>1997</dc:date>
+        <dc:description>WOS:A1997XV35800003</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0259-9791">
+        <dc:title>Journal of Mathematical Chemistry</dc:title>
+        <prism:volume>21</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:identifier>DOI 10.1023/A:1019166201637</dc:identifier>
+        <dc:identifier>ISSN 0259-9791</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_115">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1144-0546"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>AZARIO</foaf:surname>
+                        <foaf:givenname>P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>ARBELOT</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>BALDY</foaf:surname>
+                        <foaf:givenname>A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>MEYER</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>BARONE</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>CHANON</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>MICROCOMPUTER ASSISTED RETROSYNTHESIS (MARS)</dc:title>
+        <bib:pages>951-956</bib:pages>
+        <dc:date>DEC  1990</dc:date>
+        <dc:description>WOS:A1990EQ10500008</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1144-0546">
+        <dc:title>New Journal of Chemistry</dc:title>
+        <prism:volume>14</prism:volume>
+        <prism:number>12</prism:number>
+        <dc:identifier>ISSN 1144-0546</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_116">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1759-0876"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Warr</foaf:surname>
+                        <foaf:givenname>Wendy A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Representation of chemical structures</dc:title>
+        <bib:pages>557-579</bib:pages>
+        <dc:date>JUL-AUG  2011</dc:date>
+        <dc:description>WOS:000296005000005</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1759-0876">
+        <dc:title>Wiley Interdisciplinary Reviews-Computational Molecular Science</dc:title>
+        <prism:volume>1</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:identifier>DOI 10.1002/wcms.36</dc:identifier>
+        <dc:identifier>ISSN 1759-0876</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_117">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1756-8919"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rabal</foaf:surname>
+                        <foaf:givenname>Obdulia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Urbano-Cuadrado</foaf:surname>
+                        <foaf:givenname>Manuel</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oyarzabal</foaf:surname>
+                        <foaf:givenname>Julen</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Computational medicinal chemistry in fragment-based drug discovery: what, how and when</dc:title>
+        <bib:pages>95-134</bib:pages>
+        <dc:date>JAN  2011</dc:date>
+        <dc:description>WOS:000287887900015</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1756-8919">
+        <dc:title>Future Medicinal Chemistry</dc:title>
+        <prism:volume>3</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:identifier>DOI 10.4155/FMC.10.277</dc:identifier>
+        <dc:identifier>ISSN 1756-8919</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_118">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0040-4039"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tanaka</foaf:surname>
+                        <foaf:givenname>Akio</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kawai</foaf:surname>
+                        <foaf:givenname>Takashi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Takabatake</foaf:surname>
+                        <foaf:givenname>Tetsuhiko</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oka</foaf:surname>
+                        <foaf:givenname>Noriko</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Okamoto</foaf:surname>
+                        <foaf:givenname>Hideho</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bersohn</foaf:surname>
+                        <foaf:givenname>Malcolm</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Synthesis of an azaspirane via Birch reduction alkylation prompted by suggestions from a computer program</dc:title>
+        <bib:pages>6733-6737</bib:pages>
+        <dc:date>SEP 18  2006</dc:date>
+        <dc:description>WOS:000240670800006</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0040-4039">
+        <dc:title>Tetrahedron Letters</dc:title>
+        <prism:volume>47</prism:volume>
+        <prism:number>38</prism:number>
+        <dc:identifier>DOI 10.1016/j.tetlet.2006.07.100</dc:identifier>
+        <dc:identifier>ISSN 0040-4039</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_119">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Journal of Chemical Information and Modeling</dc:title>
+                <prism:volume>51</prism:volume>
+                <prism:number>10</prism:number>
+                <dc:identifier>DOI 10.1021/ci100216g</dc:identifier>
+                <dc:identifier>ISSN 1549-9596</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huang</foaf:surname>
+                        <foaf:givenname>Qi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Lin-Li</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenname>Sheng-Yong</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>RASA: A Rapid Retrosynthesis-Based Scoring Method for the Assessment of Synthetic Accessibility of Drug-like Molecules</dc:title>
+        <bib:pages>2768-2777</bib:pages>
+        <dc:date>OCT  2011</dc:date>
+        <dc:description>WOS:000296044200029</dc:description>
+    </bib:Article>
+    <bib:Article rdf:about="#item_120">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0166-1280"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Beusen</foaf:surname>
+                        <foaf:givenname>D. D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shands</foaf:surname>
+                        <foaf:givenname>E. F. B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Karasek</foaf:surname>
+                        <foaf:givenname>S. F.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marshall</foaf:surname>
+                        <foaf:givenname>G. R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dammkoehler</foaf:surname>
+                        <foaf:givenname>R. A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Systematic search in conformational analysis</dc:title>
+        <bib:pages>157-171</bib:pages>
+        <dc:date>OCT 30  1996</dc:date>
+        <dc:description>WOS:A1996WD05600005</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0166-1280">
+        <dc:title>Theochem-Journal of Molecular Structure</dc:title>
+        <prism:volume>370</prism:volume>
+        <prism:number>2-3</prism:number>
+        <dc:identifier>ISSN 0166-1280</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_121">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0044-2402"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>ADLER</foaf:surname>
+                        <foaf:givenname>B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>EITNER</foaf:surname>
+                        <foaf:givenname>B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>HERRMANN</foaf:surname>
+                        <foaf:givenname>A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>SORKAU</foaf:surname>
+                        <foaf:givenname>E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>THE USE OF ARTIFICIAL-INTELLIGENCE IN CHEMISTRY .2. THE LOCATION OF SUBSTRUCTURES WITH THE HELP OF COMPUTERS</dc:title>
+        <bib:pages>237-247</bib:pages>
+        <dc:date>1984</dc:date>
+        <dc:description>WOS:A1984TL19900001</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0044-2402">
+        <dc:title>Zeitschrift Fur Chemie</dc:title>
+        <prism:volume>24</prism:volume>
+        <prism:number>7</prism:number>
+        <dc:identifier>ISSN 0044-2402</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_122">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Wiley Interdisciplinary Reviews-Computational Molecular Science</dc:title>
+                <prism:volume>2</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:identifier>DOI 10.1002/wcms.61</dc:identifier>
+                <dc:identifier>ISSN 1759-0876</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cook</foaf:surname>
+                        <foaf:givenname>Anthony</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Johnson</foaf:surname>
+                        <foaf:givenname>A. Peter</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Law</foaf:surname>
+                        <foaf:givenname>James</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mirzazadeh</foaf:surname>
+                        <foaf:givenname>Mahdi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ravitz</foaf:surname>
+                        <foaf:givenname>Orr</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Simon</foaf:surname>
+                        <foaf:givenname>Aniko</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Computer-aided synthesis design: 40 years on</dc:title>
+        <bib:pages>79-107</bib:pages>
+        <dc:date>JAN-FEB  2012</dc:date>
+        <dc:description>WOS:000298355300005</dc:description>
+    </bib:Article>
+    <bib:Article rdf:about="#item_123">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Journal of Chemical Information and Modeling</dc:title>
+                <prism:volume>50</prism:volume>
+                <prism:number>3</prism:number>
+                <dc:identifier>DOI 10.1021/ci9004332</dc:identifier>
+                <dc:identifier>ISSN 1549-9596</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tanaka</foaf:surname>
+                        <foaf:givenname>Akio</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Okamoto</foaf:surname>
+                        <foaf:givenname>Hideho</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bersohn</foaf:surname>
+                        <foaf:givenname>Malcolm</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Construction of Functional Group Reactivity Database under Various Reaction Conditions Automatically Extracted from Reaction Database in a Synthesis Design System</dc:title>
+        <bib:pages>327-338</bib:pages>
+        <dc:date>MAR  2010</dc:date>
+        <dc:description>WOS:000275858000001</dc:description>
+    </bib:Article>
+    <bib:BookSection rdf:about="urn:isbn:978-0-470-18907-8">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Reviews in Computational Chemistry, Vol 25</dc:title>
+                <prism:volume>25</prism:volume>
+                <dc:identifier>ISBN 978-0-470-18907-8</dc:identifier>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cartwright</foaf:surname>
+                        <foaf:givenname>Hugh</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lipkowitz</foaf:surname>
+                        <foaf:givenname>K. B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cundari</foaf:surname>
+                        <foaf:givenname>T. R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>Development and Uses of Artificial Intelligence in Chemistry</dc:title>
+        <dc:date>2007</dc:date>
+        <bib:pages>349-389</bib:pages>
+        <dc:description>WOS:000314524500009</dc:description>
+    </bib:BookSection>
+    <bib:Article rdf:about="#item_125">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Knowledge Engineering Review</dc:title>
+                <prism:volume>12</prism:volume>
+                <prism:number>4</prism:number>
+                <dc:identifier>DOI 10.1017/S0269888997004013</dc:identifier>
+                <dc:identifier>ISSN 0269-8889</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hendrickson</foaf:surname>
+                        <foaf:givenname>J. B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>The application of computers to generate organic syntheses</dc:title>
+        <bib:pages>369-386</bib:pages>
+        <dc:date>DEC  1997</dc:date>
+        <dc:description>WOS:000071956800002</dc:description>
+    </bib:Article>
+    <bib:Article rdf:about="#item_126">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0162-8828"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bergeron</foaf:surname>
+                        <foaf:givenname>Charles</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moore</foaf:surname>
+                        <foaf:givenname>Gregory</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zaretzki</foaf:surname>
+                        <foaf:givenname>Jed</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Breneman</foaf:surname>
+                        <foaf:givenname>Curt M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bennett</foaf:surname>
+                        <foaf:givenname>Kristin P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Fast Bundle Algorithm for Multiple-Instance Learning</dc:title>
+        <bib:pages>1068-1079</bib:pages>
+        <dc:date>JUN  2012</dc:date>
+        <dc:description>WOS:000302916600003</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0162-8828">
+        <dc:title>Ieee Transactions on Pattern Analysis and Machine Intelligence</dc:title>
+        <prism:volume>34</prism:volume>
+        <prism:number>6</prism:number>
+        <dc:identifier>DOI 10.1109/TPAMI.2011.194</dc:identifier>
+        <dc:identifier>ISSN 0162-8828</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_127">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Journal of Chemical Information and Modeling</dc:title>
+                <prism:volume>50</prism:volume>
+                <prism:number>8</prism:number>
+                <dc:identifier>DOI 10.1021/ci100146n</dc:identifier>
+                <dc:identifier>ISSN 1549-9596</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nowak</foaf:surname>
+                        <foaf:givenname>Grazyna</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fic</foaf:surname>
+                        <foaf:givenname>Grzegorz</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Search for Complexity Generating Chemical Transformations by Combining Connectivity Analysis and Cascade Transformation Patterns</dc:title>
+        <bib:pages>1369-1377</bib:pages>
+        <dc:date>AUG  2010</dc:date>
+        <dc:description>WOS:000281022300006</dc:description>
+    </bib:Article>
+    <bib:Book rdf:about="urn:isbn:978-3-642-01959-3">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gugisch</foaf:surname>
+                        <foaf:givenname>Ralf</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Klin</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jones</foaf:surname>
+                        <foaf:givenname>G. A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jurisic</foaf:surname>
+                        <foaf:givenname>A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Muzychuk</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ponomarenko</foaf:surname>
+                        <foaf:givenname>I.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>A Construction of Isomorphism Classes of Oriented Matroids</dc:title>
+        <dc:date>2009</dc:date>
+        <dc:identifier>ISBN 978-3-642-01959-3</dc:identifier>
+        <dc:description>WOS:000274180100007</dc:description>
+    </bib:Book>
+    <bib:Article rdf:about="#item_129">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Journal of Chemical Information and Computer Sciences</dc:title>
+                <prism:volume>37</prism:volume>
+                <prism:number>6</prism:number>
+                <dc:identifier>DOI 10.1021/ci970042f</dc:identifier>
+                <dc:identifier>ISSN 0095-2338</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tseng</foaf:surname>
+                        <foaf:givenname>S. S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Computer-assisted reaction searching directed toward the synthesis of target molecules</dc:title>
+        <bib:pages>1138-1145</bib:pages>
+        <dc:date>NOV-DEC  1997</dc:date>
+        <dc:description>WOS:A1997YH65200030</dc:description>
+    </bib:Article>
+    <bib:Article rdf:about="#item_130">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0033-2496"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nowak</foaf:surname>
+                        <foaf:givenname>Grazyna</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fic</foaf:surname>
+                        <foaf:givenname>Grzegorz</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Computer aided design of complex multistep organic syntheses. Present and future directions</dc:title>
+        <bib:pages>78-83</bib:pages>
+        <dc:date>JAN  2011</dc:date>
+        <dc:description>WOS:000288041200023</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0033-2496">
+        <dc:title>Przemysl Chemiczny</dc:title>
+        <prism:volume>90</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 0033-2496</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_131">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0883-7694"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Anonymous</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Artificial intelligence aids combinatorial chemistry</dc:title>
+        <bib:pages>290-291</bib:pages>
+        <dc:date>APR  2002</dc:date>
+        <dc:description>WOS:000175048500015</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0883-7694">
+        <dc:title>Mrs Bulletin</dc:title>
+        <prism:volume>27</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:identifier>ISSN 0883-7694</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_132">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0009-272X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wood</foaf:surname>
+                        <foaf:givenname>A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Research - Bringing artificial intelligence into the chemistry lab</dc:title>
+        <bib:pages>24-24</bib:pages>
+        <dc:date>MAR 27  2002</dc:date>
+        <dc:description>WOS:000174620300023</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0009-272X">
+        <dc:title>Chemical Week</dc:title>
+        <prism:volume>164</prism:volume>
+        <prism:number>13</prism:number>
+        <dc:identifier>ISSN 0009-272X</dc:identifier>
+    </bib:Journal>
+    <bib:BookSection rdf:about="urn:isbn:0-12-034828-4">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Advances in Quantum Chemistry, Vol. 28: Recent Advances in Computational Chemistry</dc:title>
+                <prism:volume>28</prism:volume>
+                <dc:identifier>ISBN 0-12-034828-4</dc:identifier>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Duch</foaf:surname>
+                        <foaf:givenname>W.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lowdin</foaf:surname>
+                        <foaf:givenname>P. O.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sabin</foaf:surname>
+                        <foaf:givenname>J. R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zerner</foaf:surname>
+                        <foaf:givenname>M. C.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Karwowski</foaf:surname>
+                        <foaf:givenname>J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Karelson</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>Artificial intelligence support for computational chemistry</dc:title>
+        <dc:date>1997</dc:date>
+        <bib:pages>329-343</bib:pages>
+        <dc:description>WOS:000073205600023</dc:description>
+    </bib:BookSection>
+    <bib:Data rdf:about="http://www.rdkit.org">
+        <z:itemType>computerProgram</z:itemType>
+        <z:programmers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Landrum</foaf:surname>
+                        <foaf:givenname>Greg</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:programmers>
+        <dc:title>RDKit: Open-source cheminformatics</dc:title>
+        <prism:edition>RDKit</prism:edition>
+        <z:system>Ubuntu Linux 12.04</z:system>
+        <z:programmingLanguage>Python</z:programmingLanguage>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://www.rdkit.org</rdf:value></dcterms:URI>
+        </dc:identifier>
+    </bib:Data>
+    <bib:Article rdf:about="http://onlinelibrary.wiley.com/doi/10.1002/anie.201202209/abstract">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1521-3773"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kowalik</foaf:surname>
+                        <foaf:givenname>Mikołaj</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gothard</foaf:surname>
+                        <foaf:givenname>Chris M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Drews</foaf:surname>
+                        <foaf:givenname>Aaron M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gothard</foaf:surname>
+                        <foaf:givenname>Nosheen A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weckiewicz</foaf:surname>
+                        <foaf:givenname>Alex</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fuller</foaf:surname>
+                        <foaf:givenname>Patrick E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grzybowski</foaf:surname>
+                        <foaf:givenname>Bartosz A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bishop</foaf:surname>
+                        <foaf:givenname>Kyle J. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_136"/>
+        <link:link rdf:resource="#item_137"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>algorithms</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>chemical networks</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>optimization</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>synthetic methods</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Parallel Optimization of Synthetic Pathways within the Network of Organic Chemistry</dc:title>
+        <bib:pages>7928–7932</bib:pages>
+        <dc:date>2012</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1002/anie.201202209/abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-05-09 17:56:46</dcterms:dateSubmitted>
+        <z:libraryCatalog>Wiley Online Library</z:libraryCatalog>
+        <dc:rights>Copyright © 2012 WILEY-VCH Verlag GmbH &amp; Co. KGaA, Weinheim</dc:rights>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1521-3773">
+        <dc:title>Angewandte Chemie International Edition</dc:title>
+        <prism:volume>51</prism:volume>
+        <prism:number>32</prism:number>
+        <dc:identifier>DOI 10.1002/anie.201202209</dc:identifier>
+        <dc:identifier>ISSN 1521-3773</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_136">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 17:56:46</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/store/10.1002/anie.201202209/asset/7928_ftp.pdf?v=1&amp;t=hgi8mwxm&amp;s=d4303653e973a46da5f0c913ba802878ff75f29f</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_137">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 17:56:53</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1002/anie.201202209/abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+        <link:charset>1</link:charset>
+    </z:Attachment>
+    <bib:Article rdf:about="http://dx.doi.org/10.1002/anie.201202209">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Angewandte Chemie International Edition</dc:title>
+                <prism:volume>51</prism:volume>
+                <prism:number>32</prism:number>
+                <dc:identifier>DOI 10.1002/anie.201202209</dc:identifier>
+                <dc:identifier>ISSN 1521-3773</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kowalik</foaf:surname>
+                        <foaf:givenname>Mikołaj</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gothard</foaf:surname>
+                        <foaf:givenname>Chris M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Drews</foaf:surname>
+                        <foaf:givenname>Aaron M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gothard</foaf:surname>
+                        <foaf:givenname>Nosheen A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weckiewicz</foaf:surname>
+                        <foaf:givenname>Alex</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fuller</foaf:surname>
+                        <foaf:givenname>Patrick E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grzybowski</foaf:surname>
+                        <foaf:givenname>Bartosz A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bishop</foaf:surname>
+                        <foaf:givenname>Kyle J. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>algorithms</dc:subject>
+        <dc:subject>chemical networks</dc:subject>
+        <dc:subject>optimization</dc:subject>
+        <dc:subject>synthetic methods</dc:subject>
+        <dc:title>Parallel Optimization of Synthetic Pathways within the Network of Organic Chemistry</dc:title>
+        <bib:pages>7928–7932</bib:pages>
+        <dc:date>2012</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://dx.doi.org/10.1002/anie.201202209</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </bib:Article>
+    <bib:Article rdf:about="#item_139">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Angewandte Chemie International Edition</dc:title>
+                <prism:volume>51</prism:volume>
+                <prism:number>32</prism:number>
+                <dc:identifier>DOI 10.1002/anie.201202209</dc:identifier>
+                <dc:identifier>ISSN 1521-3773</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kowalik</foaf:surname>
+                        <foaf:givenname>Mikołaj</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gothard</foaf:surname>
+                        <foaf:givenname>Chris M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Drews</foaf:surname>
+                        <foaf:givenname>Aaron M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gothard</foaf:surname>
+                        <foaf:givenname>Nosheen A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weckiewicz</foaf:surname>
+                        <foaf:givenname>Alex</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fuller</foaf:surname>
+                        <foaf:givenname>Patrick E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grzybowski</foaf:surname>
+                        <foaf:givenname>Bartosz A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bishop</foaf:surname>
+                        <foaf:givenname>Kyle J. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_140"/>
+        <link:link rdf:resource="#item_141"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>algorithms</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>chemical networks</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>optimization</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>synthetic methods</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Parallel Optimization of Synthetic Pathways within the Network of Organic Chemistry</dc:title>
+        <bib:pages>7928–7932</bib:pages>
+        <dc:date>2012</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1002/anie.201202209/abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-05-09 18:00:40</dcterms:dateSubmitted>
+        <z:libraryCatalog>Wiley Online Library</z:libraryCatalog>
+        <dc:rights>Copyright © 2012 WILEY-VCH Verlag GmbH &amp; Co. KGaA, Weinheim</dc:rights>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_140">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 18:00:40</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/store/10.1002/anie.201202209/asset/7928_ftp.pdf?v=1&amp;t=hgi8rxad&amp;s=ac87dbaecee2a3f9ff9a84b9c7fa886b0e3b1f26</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_141">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 18:00:42</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1002/anie.201202209/abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+        <link:charset>1</link:charset>
+    </z:Attachment>
+    <bib:Article rdf:about="http://onlinelibrary.wiley.com/doi/10.1002/anie.200600881/abstract">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Angewandte Chemie International Edition</dc:title>
+                <prism:volume>45</prism:volume>
+                <prism:number>32</prism:number>
+                <dc:identifier>DOI 10.1002/anie.200600881</dc:identifier>
+                <dc:identifier>ISSN 1521-3773</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bishop</foaf:surname>
+                        <foaf:givenname>Kyle J. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Klajn</foaf:surname>
+                        <foaf:givenname>Rafal</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grzybowski</foaf:surname>
+                        <foaf:givenname>Bartosz A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_143"/>
+        <link:link rdf:resource="#item_146"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>history of science</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>network theory</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>organic chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>synthetic methods</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The Core and Most Useful Molecules in Organic Chemistry</dc:title>
+        <bib:pages>5348–5354</bib:pages>
+        <dc:date>2006</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1002/anie.200600881/abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-05-09 18:02:18</dcterms:dateSubmitted>
+        <z:libraryCatalog>Wiley Online Library</z:libraryCatalog>
+        <dc:rights>Copyright © 2006 WILEY-VCH Verlag GmbH &amp; Co. KGaA, Weinheim</dc:rights>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_143">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 18:02:18</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/store/10.1002/anie.200600881/asset/5348_ftp.pdf?v=1&amp;t=hgi8u18s&amp;s=42dde40702a99121670792148650db4ec58b7e93</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_146">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 18:02:24</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1002/anie.200600881/abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+        <link:charset>1</link:charset>
+    </z:Attachment>
+    <bib:Article rdf:about="http://onlinelibrary.wiley.com/doi/10.1002/anie.200502272/abstract">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Angewandte Chemie International Edition</dc:title>
+                <prism:volume>44</prism:volume>
+                <prism:number>44</prism:number>
+                <dc:identifier>DOI 10.1002/anie.200502272</dc:identifier>
+                <dc:identifier>ISSN 1521-3773</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fialkowski</foaf:surname>
+                        <foaf:givenname>Marcin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bishop</foaf:surname>
+                        <foaf:givenname>Kyle J. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chubukov</foaf:surname>
+                        <foaf:givenname>Victor A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Campbell</foaf:surname>
+                        <foaf:givenname>Christopher J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grzybowski</foaf:surname>
+                        <foaf:givenname>Bartosz A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_152"/>
+        <link:link rdf:resource="#item_153"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>combinatorial chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>master equations</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>networks</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>organic reactions</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>stochastic modeling</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Architecture and Evolution of Organic Chemistry</dc:title>
+        <bib:pages>7263–7269</bib:pages>
+        <dc:date>2005</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1002/anie.200502272/abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-05-09 18:02:30</dcterms:dateSubmitted>
+        <z:libraryCatalog>Wiley Online Library</z:libraryCatalog>
+        <dc:rights>Copyright © 2005 WILEY-VCH Verlag GmbH &amp; Co. KGaA, Weinheim</dc:rights>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_152">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 18:02:30</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/store/10.1002/anie.200502272/asset/7263_ftp.pdf?v=1&amp;t=hgi8u5b5&amp;s=a668b499e6abfc0976005a8c71699d0f465be461</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_153">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 18:02:33</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1002/anie.200502272/abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+        <link:charset>1</link:charset>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/nchem/journal/v1/n1/full/nchem.136.html">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1755-4330"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grzybowski</foaf:surname>
+                        <foaf:givenname>Bartosz A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bishop</foaf:surname>
+                        <foaf:givenname>Kyle J. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kowalczyk</foaf:surname>
+                        <foaf:givenname>Bartlomiej</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wilmer</foaf:surname>
+                        <foaf:givenname>Christopher E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_155"/>
+        <link:link rdf:resource="#item_156"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>analytical</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>biochemistry</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>bioinorganic chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>bioorganic chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>catalysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>chemical biology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>chemical industry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>chemical reaction</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>chemistry</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>combinatorial chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>complex</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>compound</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>computational chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>content</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>covalent</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>crystallography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>electrochemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>elements</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>environmental chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>green chemistry</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>infrared</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>inorganic</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ion</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ionic</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>journal</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>kinetics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>materials</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>medicinal chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>mole</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>molecule</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>nanotechnology</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>natural products</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>nature</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>nature chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>nature publishing group</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>nuclear chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>nuclear magnetic resonance</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>organic</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>organometallic</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>oxidation</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>pharmaceuticals</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>photochemistry</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>physical chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>polymer</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>quantum mechanics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>reaction mechanism</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>reduction</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>salt</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>spectrometry</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>spectroscopy</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>stereochemistry</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>structural chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>supramolecular</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>surface chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>synthesis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>theoretical chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>thermodynamics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ultraviolet</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>x-ray</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The 'wired' universe of organic chemistry</dc:title>
+        <dcterms:abstract>The millions of reactions performed and compounds synthesized by organic chemists over the past two centuries connect to form a network larger than the metabolic networks of higher organisms and rivalling the complexity of the World Wide Web. Despite its apparent randomness, the network of chemistry has a well-defined, modular architecture. The network evolves in time according to trends that have not changed since the inception of the discipline, and thus project into chemistry's future. Analysis of organic chemistry using the tools of network theory enables the identification of most 'central' organic molecules, and for the prediction of which and how many molecules will be made in the future. Statistical analyses based on network connectivity are useful in optimizing parallel syntheses, in estimating chemical reactivity, and more.</dcterms:abstract>
+        <bib:pages>31-36</bib:pages>
+        <dc:date>April 2009</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nature.com/nchem/journal/v1/n1/full/nchem.136.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-05-09 18:02:34</dcterms:dateSubmitted>
+        <z:libraryCatalog>www.nature.com</z:libraryCatalog>
+        <dc:rights>© 2009 Nature Publishing Group</dc:rights>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1755-4330">
+        <dc:title>Nature Chemistry</dc:title>
+        <prism:volume>1</prism:volume>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Nat Chem</dcterms:alternative>
+        <dc:identifier>DOI 10.1038/nchem.136</dc:identifier>
+        <dc:identifier>ISSN 1755-4330</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_155">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 18:02:34</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nature.com/nchem/journal/v1/n1/pdf/nchem.136.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_156">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 18:02:37</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nature.com/nchem/journal/v1/n1/full/nchem.136.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+        <link:charset>1</link:charset>
+    </z:Attachment>
+    <bib:Article rdf:about="http://onlinelibrary.wiley.com/doi/10.1002/poc.1535/abstract">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1099-1395"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kowalczyk</foaf:surname>
+                        <foaf:givenname>Bartlomiej</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bishop</foaf:surname>
+                        <foaf:givenname>Kyle J. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smoukov</foaf:surname>
+                        <foaf:givenname>Stoyan K.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grzybowski</foaf:surname>
+                        <foaf:givenname>Bartosz A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_158"/>
+        <link:link rdf:resource="#item_159"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>linear free energy relationships</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>organic chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>structure-activity relationship</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>substituent effect</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>synthesis design</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Synthetic popularity reflects chemical reactivity</dc:title>
+        <dcterms:abstract>Large and diverse databases of chemical reactions contain statistically significant information about the propensities of molecules to undergo specific chemical transformations. It is shown that this information can be quantified to reflect reaction thermodynamics/kinetics and can be used to construct primitive (yet accurate) reactivity indices from the counts of reported reactions involving molecules/molecular positions of interest. These indices correlate with frontier orbital (FO) populations or Hammett σ and ρ parameters for a range of reactions involving aromatic substrates. These findings suggest that large chemical databases are not only a historical repository of chemical knowledge but also tools with which one can make useful chemical predictions. Copyright © 2009 John Wiley &amp; Sons, Ltd.</dcterms:abstract>
+        <bib:pages>897–902</bib:pages>
+        <dc:date>2009</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1002/poc.1535/abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-05-09 18:02:38</dcterms:dateSubmitted>
+        <z:libraryCatalog>Wiley Online Library</z:libraryCatalog>
+        <dc:rights>Copyright © 2009 John Wiley &amp; Sons, Ltd.</dc:rights>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1099-1395">
+        <dc:title>Journal of Physical Organic Chemistry</dc:title>
+        <prism:volume>22</prism:volume>
+        <prism:number>9</prism:number>
+        <dc:identifier>DOI 10.1002/poc.1535</dc:identifier>
+        <dc:identifier>ISSN 1099-1395</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_158">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 18:02:38</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/store/10.1002/poc.1535/asset/1535_ftp.pdf?v=1&amp;t=hgi8uen4&amp;s=d68ed103f3dfa7e3283a9ea7f95f3c887f1d01b1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_159">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 18:02:41</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1002/poc.1535/abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+        <link:charset>1</link:charset>
+    </z:Attachment>
+    <bib:Article rdf:about="http://onlinelibrary.wiley.com/doi/10.1002/anie.198800891/abstract">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Angewandte Chemie International Edition in English</dc:title>
+                <prism:volume>27</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:identifier>DOI 10.1002/anie.198800891</dc:identifier>
+                <dc:identifier>ISSN 1521-3773</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lehn</foaf:surname>
+                        <foaf:givenname>Jean-Marie</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_161"/>
+        <link:link rdf:resource="#item_162"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Macrocycles</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Molecular recognition</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Nobel lecture</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Supramolecular chemistry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Supramolecular Chemistry—Scope and Perspectives Molecules, Supermolecules, and Molecular Devices (Nobel Lecture)</dc:title>
+        <dcterms:abstract>Supramolecular chemistry is the chemistry of the intermolecular bond, covering the structures and functions of the entities formed by association of two or more chemical species. Molecular recognition in the supermolecules formed by receptor-substrate binding rests on the principles of molecular complementarity, as found in spherical and tetrahedral recognition, linear recognition by coreceptors, metalloreceptors, amphiphilic receptors, and anion coordination. Supramolecular catalysis by receptors bearing reactive groups effects bond cleavage reactions as well as synthetic bond formation via cocatalysis. Lipophilic receptor molecules act as selective carriers for various substrates and make it possible to set up coupled transport processes linked to electron and proton gradients or to light. Whereas endoreceptors bind substrates in molecular cavities by convergent interactions, exoreceptors rely on interactions between the surfaces of the receptor and the substrate; thus new types of receptors, such as the metallonucleates, may be designed. In combination with polymolecular assemblies, receptors, carriers, and catalysts may lead to molecular and supramolecular devices, defined as structurally organized and functionally integrated chemical systems built on supramolecular architectures. Their recognition, transfer, and transformation features are analyzed specifically from the point of view of molecular devices that would operate via photons, electrons, or ions, thus defining fields of molecular photonics, electronics, and ionics. Introduction of photosensitive groups yields photoactive receptors for the design of light-conversion and charge-separation centers. Redox-active polyolefinic chains represent molecular wires for electron transfer through membranes. Tubular mesophases formed by stacking of suitable macrocyclic receptors may lead to ion channels. Molecular self-assembling occurs with acyclic ligands that form complexes of double-helical structure. Such developments in molecular and supramolecular design and engineering open perspectives towards the realization of molecular photonic, electronic, and ionic devices that would perform highly selective recognition, reaction, and transfer operations for signal and information processing at the molecular level.</dcterms:abstract>
+        <bib:pages>89–112</bib:pages>
+        <dc:date>1988</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1002/anie.198800891/abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-05-09 19:48:20</dcterms:dateSubmitted>
+        <z:libraryCatalog>Wiley Online Library</z:libraryCatalog>
+        <dc:rights>Copyright © 1988 by VCH Verlagsgesellschaft mbH, Germany</dc:rights>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_161">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 19:48:20</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/store/10.1002/anie.198800891/asset/198800891_ftp.pdf?v=1&amp;t=hgicmd96&amp;s=f8ba87325c6b3ffd2276190b2b356558ea9ba9a7</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_162">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 19:48:22</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1002/anie.198800891/abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+        <link:charset>1</link:charset>
+    </z:Attachment>
+    <bib:Article rdf:about="http://dx.doi.org/10.1021/jo01299a002">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0022-3263"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corey</foaf:surname>
+                        <foaf:givenname>E. J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Johnson</foaf:surname>
+                        <foaf:givenname>A. Peter</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Long</foaf:surname>
+                        <foaf:givenname>Alan K.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_165"/>
+        <dc:title>Computer-assisted synthetic analysis. Techniques for efficient long-range retrosynthetic searches applied to the Robinson annulation process</dc:title>
+        <bib:pages>2051-2057</bib:pages>
+        <dc:date>May 1, 1980</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://dx.doi.org/10.1021/jo01299a002</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-05-09 19:55:33</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACS Publications</z:libraryCatalog>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0022-3263">
+        <dc:title>The Journal of Organic Chemistry</dc:title>
+        <prism:volume>45</prism:volume>
+        <prism:number>11</prism:number>
+        <dcterms:alternative>J. Org. Chem.</dcterms:alternative>
+        <dc:identifier>DOI 10.1021/jo01299a002</dc:identifier>
+        <dc:identifier>ISSN 0022-3263</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_165">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>ACS Full Text Snapshot</dc:title>
+        <dcterms:dateSubmitted>2013-05-09 19:55:35</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://pubs.acs.org/doi/abs/10.1021/jo01299a002</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+        <link:charset>1</link:charset>
+    </z:Attachment>
+</rdf:RDF>

@@ -1,0 +1,6 @@
+*.svg
+english_segmentation/extracted
+english_segmentation/*.bz2
+english_segmentation/*.txt
+.idea
+*.pyc
