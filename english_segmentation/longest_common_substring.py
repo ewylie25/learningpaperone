@@ -34,7 +34,7 @@ if __name__ == "__main__":
     with open(sys.argv[1]) as f:
         lines = f.readlines()
         shuffle(lines)
-        select = 500
+        select = 400
         percent = -1
         i = 0
         count = float(binomial(select,2))

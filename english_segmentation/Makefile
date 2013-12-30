@@ -25,5 +25,8 @@ frags.txt : tmp.txt
 frag_stats.txt: frags.txt sentences.txt
 	./frag_stats.py frags.txt sentences.txt > frag_stats.txt
 
-clean:
-	
+en_stats.tsv: frag_stats.txt
+	cat $< | sort -n > $@
+
+clean_frags:
+	rm frag_stats.txt frags.txt tmp.txt
