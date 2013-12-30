@@ -50,7 +50,6 @@ def loadSmarts(fn):
 
 
 def sameMolecule(a,b):
-    @timeout(0.9)
     def same_or_timeout(a,b):
         if a[1] == b[1] : return True #string compare
         if a[0].GetNumAtoms() != b[0].GetNumAtoms() : return False
@@ -83,7 +82,7 @@ if __name__ == "__main__":
     print "Retieved {count} random molecules".format(count = len(mols))
     print "Aquiring random molecule fragments (and combining with molecules from {smarts})".format(smarts=sys.argv[2])
     frags = []
-    for s in (fragments(mols[:60]) | loadSmarts(sys.argv[2])):
+    for s in (fragments(mols[:400]) | loadSmarts(sys.argv[2])):
         try:
             frags.append((Chem.MolFromSmarts(s),s))
         except:
