@@ -1,3 +1,25 @@
+def get_color_pairs(mol,bw, maxes, mins):
+    cp=[]
+    maxweight = max( bw.values()) # this is for normalization.. might as well throw it away:
+
+    for x in mol.GetBonds():
+        start=x.GetBeginAtomIdx() #this is rdkit only!
+        end=x.GetEndAtomIdx()
+
+        #1)colortupleclamp,2)tohex
+        score=bw.get(frozenset([start,end]), 0.0) #returns the scoretuple.. right?
+        #print score
+        palette={
+                mins[0]:"FF0000",
+                mins[1]:"C76939",
+                mins[2]:"FFDA45",
+                maxes[0]:"00FF00",
+                maxes[1]:"00AA00",
+                maxes[2]:"005500"
+            }
+        cp.append({'a':start+1,'b':end+1,'color':palette.get(score, "000000")})
+
+    return cp
 
 
 if __name__ == "__main__":
@@ -40,14 +62,19 @@ if __name__ == "__main__":
             try:
                 mol=Chem.MolFromSmiles(line)
                 bweights = wb.weight_bonds(words,idfs,mol)
-                ahmap = wb.bond_weights_to_hmap(bweights,mol)
+
+                allweights = sorted(list(set(bweights.values()))) #needs at least 6 diff kind of bonds!!
+                maxweights = allweights[-3:] #top3
+                minweights = allweights[:3] #bottom 3
+
+
 
                 # Label the atoms
                 wb.label_mol(mol)
-                smiles=Chem.MolToSmiles(mol,isomericSmiles=True)
-                maxweights = sorted(ahmap.values())[-2:]
-                maxatoms=[idx+1 for idx,weight in ahmap.items()
-                            if weight in maxweights]
+                smiles=Chem.MolToSmiles(mol, isomericSmiles=True)
+
+                # maxatoms=[idx+1 for idx,weight in ahmap.items()
+                #             if weight in maxweights]
                 data.append({
                 "format":{
                     'width':500,
@@ -56,7 +83,7 @@ if __name__ == "__main__":
                     },
                 "data":{
                     'smiles': smiles,
-                    'pairs': wb.get_color_pairs(mol,bweights),
+                    'pairs': get_color_pairs(mol,bweights,maxweights,minweights),
                     }
                 })
             except Exception as e:
