@@ -79,7 +79,7 @@ def color_tuple_clamp(val,maxweight):
 
 def label_mol(mol):
     for a in mol.GetAtoms():
-        print >>sys.stderr, "IDX", a.GetIdx() + 1
+        #print >>sys.stderr, "IDX", a.GetIdx() + 1
         a.SetProp('molAtomMapNumber',str(a.GetIdx() + 1))
 
 def get_idfs(counts,docs):
@@ -102,14 +102,13 @@ def clamp_hex(v,maxw):
 
 def get_color_pairs(mol,bw):
     cp=[]
-    print "ahmap: ", bw
     maxweight = max( bw.values())
     for x in mol.GetBonds():
-        start=x.GetBeginAtomIdx()
+        start=x.GetBeginAtomIdx() #this is rdkit only!
         end=x.GetEndAtomIdx()
         #1)colortupleclamp,2)tohex
         col=clamp_hex(bw.get(frozenset([start,end]),(0,0,0)), maxweight)
-        cp.append({'a':start,'b':end,'color':col})
+        cp.append({'a':start+1,'b':end+1,'color':col})
     return cp
 
 if __name__ == "__main__":
@@ -133,7 +132,7 @@ if __name__ == "__main__":
     # Compute the idf scores
     idfs = get_idfs(counts,numdocs)
     bweights = weight_bonds(words,idfs,mol)
-    print bweights
+    # print bweights
     ahmap = bond_weights_to_hmap(bweights,mol)
 
     # Label the atoms
@@ -142,21 +141,20 @@ if __name__ == "__main__":
     maxweights = sorted(ahmap.values())[-2:]
     maxatoms=[idx+1 for idx,weight in ahmap.items() 
                     if weight in maxweights]
-    print >>sys.stderr, maxatoms, smiles
+    #print >>sys.stderr, maxatoms, smiles
 
     #sorted_bweights=sorted(bweights.iteritems(), key=itemgetter(1))
     #pprint(sorted_bweights)
 
     # Label the mol
-    print 500, 500, '"'+ smiles + '"',  '"' + print_hmap(ahmap) + '"'
+    # print 500, 500, '"'+ smiles + '"',  '"' + print_hmap(ahmap) + '"'
     import json
-    colorstring = print_hmap(ahmap)
-    print json.dumps({
-        'width':500,
-        'height':500,
+
+    print 500, 500, json.dumps({
+        # 'width':500,
+        # 'height':500,
         'smiles': smiles,
         'pairs': get_color_pairs(mol,bweights),
-        'colors': colorstring,
     })
     # Print the moleculue
     #Draw.MolToFile(mol,fileName=dest_file,imageType="svg", highlightMap=bond_weights_to_hmap(bweights,mol))
