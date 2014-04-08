@@ -79,3 +79,7 @@ Figure 7. (HO)2-PO-S-C11-EG6-OH## Future Work
 5. Zipf, G. K. The psycho-biology of language. ix, (Houghton, Mifflin, 1935).
 
 6. Burroughs, S. M. & Tebbens, S. F. Upper-Truncated Power Law Distributions. Fractals 09, 209–222 (2001).
+
+
+# installation:
+there's no installation to do, just pull the repo. The scripts should be automatically able to run. The script can be run by using the alltogether.py file. 
