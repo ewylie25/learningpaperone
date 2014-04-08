@@ -7,7 +7,7 @@ smarts_stats.txt: 10000_smiles.txt smarts.txt
 
 random_db="Clc1cccc2cc3ccccc3cc12"
 random_db.svg: smarts_stats.txt weight_bonds.py
-	./weight_bonds.py $< 10000 $(random_db) | xargs java -jar ./colorer.jar $@
+	./weight_bonds_to_json.py $< 10000 $(random_db) | xargs java -jar ./colorer.jar $@
 
 random_db2="FC(F)(F)COC1C2CC3CC(C2)CC1C3"
 random_db2.svg: smarts_stats.txt weight_bonds.py

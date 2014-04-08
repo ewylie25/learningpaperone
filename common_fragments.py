@@ -82,7 +82,7 @@ if __name__ == "__main__":
     print "Retieved {count} random molecules".format(count = len(mols))
     print "Aquiring random molecule fragments (and combining with molecules from {smarts})".format(smarts=sys.argv[2])
     frags = []
-    for s in (fragments(mols[:400]) | loadSmarts(sys.argv[2])):
+    for s in (fragments(mols[:20]) | loadSmarts(sys.argv[2])):
         try:
             frags.append((Chem.MolFromSmarts(s),s))
         except:
