@@ -1,7 +1,35 @@
-#Machine Learning the Language of Chemistry As A Guide for RetrosynthesisMatthew P. Wampler-Doty†Andrea Cadeddu†Bartosz A. Grzybowski†† Department of Chemistry and Department of Chemical Engineering, Northwestern University, 2145 Sheridan Road, Evanston, Illinois 60208, United States####Abstract This paper introduces data science techniques to computer assisted chemical retrosynthesis.   We develop an unsupervised machine learning algorithm for *segmenting* a compound into recognizable submolecules and motifs.  The approach adapts techniques from natural language processing to chemistry, establishing that the subjects may be understood in a unified framework.##Outline###Introduction : 
-Automated retrosynthesis is an old, outstanding problem of chemical informatics. Traditionally the problem has been tackled strictly with tree search, which has lead it to be likened to chess AI programming (2005).  However the analogy between the two activities is strained - for example while chemistry researchers have lauded Samuel's α–β pruning (1959) as an examplar heuristic tree search algorithm, the Samuel's basic game-theoretic justification makes little sense for chemistry, where there are no opponents.  It is challenging to develop heuristics for guiding automated retrosynthesis. As a result, researchers often opted for *exhaustive* search, exploring all retrosynthetic pathways from the target molecule.  This quickly gets out of hand for molecules with molecular weight exceeding 200 g/mol.
-An early proposed heuristic for simplifying retrosynthetic search is the *Localised Matching Unit* (LMU), introduced by Corey in his LHASA program (1980).  The idea behind LMUs is to break the target molecule up into reasonable submolecules, guiding retrosynthesis to first combine those submolecules to construct the target, then recursively synthesizing those submolecules.  Corey's LHASA contained a small number of hand coded LMUs, covering just a small number of cases.
-In this paper we propose an unsupervised machine learning system for the robust, algorithmic identification of LMUs.  Our algorithm is derived from the observation that the distribution of submolecules in organic chemistry follow the same distributions as sentence fragments in natural language. This suggests that statistical techniques in one domain can inform problems in the other.  We provide an algorithm for identifying boundaries of LMUs, based on linguistic TF-IDF scores of learned submolecules.
+# installation:
+there's no installation to do, just pull the repo. 
+The scripts should be automatically able to run, provided that all the dependencies are satisfied.
+the english_segmentation folder should be self-explanatory.
+then there are two main scripts - 
+one to build the dictionary, to generate the "stats", and one that from the stats scores every bond. 
+The script can be run by using the alltogether.py file. 
+examples are contained in the Makefile.
+
+To generate color images, use the colorer tool from the colorer repo: https://github.com/deddu/colorer . 
+
+
+#Machine Learning the Language of Chemistry As A Guide for Retrosynthesis
+
+Matthew P. Wampler-Doty†
+Andrea Cadeddu†
+Bartosz A. Grzybowski†
+
+† Department of Chemistry and Department of Chemical Engineering, Northwestern University, 2145 Sheridan Road, Evanston, Illinois 60208, United States
+
+####Abstract 
+This paper introduces data science techniques to computer assisted chemical retrosynthesis.   We develop an unsupervised machine learning algorithm for *segmenting* a compound into recognizable submolecules and motifs.  The approach adapts techniques from natural language processing to chemistry, establishing that the subjects may be understood in a unified framework.
+
+##Outline
+
+###Introduction : 
+
+Automated retrosynthesis is an old, outstanding problem of chemical informatics. Traditionally the problem has been tackled strictly with tree search, which has lead it to be likened to chess AI programming (2005).  However the analogy between the two activities is strained - for example while chemistry researchers have lauded Samuel's α–β pruning (1959) as an examplar heuristic tree search algorithm, the Samuel's basic game-theoretic justification makes little sense for chemistry, where there are no opponents.  It is challenging to develop heuristics for guiding automated retrosynthesis. As a result, researchers often opted for *exhaustive* search, exploring all retrosynthetic pathways from the target molecule.  This quickly gets out of hand for molecules with molecular weight exceeding 200 g/mol.
+
+An early proposed heuristic for simplifying retrosynthetic search is the *Localised Matching Unit* (LMU), introduced by Corey in his LHASA program (1980).  The idea behind LMUs is to break the target molecule up into reasonable submolecules, guiding retrosynthesis to first combine those submolecules to construct the target, then recursively synthesizing those submolecules.  Corey's LHASA contained a small number of hand coded LMUs, covering just a small number of cases.
+
+In this paper we propose an unsupervised machine learning system for the robust, algorithmic identification of LMUs.  Our algorithm is derived from the observation that the distribution of submolecules in organic chemistry follow the same distributions as sentence fragments in natural language. This suggests that statistical techniques in one domain can inform problems in the other.  We provide an algorithm for identifying boundaries of LMUs, based on linguistic TF-IDF scores of learned submolecules.
 
 ###Chemistry As A Language
 
@@ -30,8 +58,16 @@ Figure 2. Rank vs. Frequency for chemical fragments and English sentence fragmen
 
 ![Fig. 3](./pics/Fits-01.svg)
 
-In the case of linguistics, the observed power-law distribution is known as *Zipf's Law* (1935).  As far as we know, this simple statistical observation has never been observed in chemistry before.  It immediately suggests that techniques for dealing with the analysis of language may fruitfully be applied to the analysis of chemical compounds.##Algorithm and Analysis###TF-IDFFrom the statistical observations of chemical fragments we have made, we develop a heuristic, unsupervised learning algorithm for finding the boundaries of submolecules.
-In linguistics, Zipf's law has provided the basis for the automated recognition of *keywords* in a document.  This is done by ranking words according to their *TF-IDF* score, developed by Jones (1972).  Given a dataset *D*, the TF-IDF for a term *t* in a document *d* , is defined as:
+In the case of linguistics, the observed power-law distribution is known as *Zipf's Law* (1935).  As far as we know, this simple statistical observation has never been observed in chemistry before.  It immediately suggests that techniques for dealing with the analysis of language may fruitfully be applied to the analysis of chemical compounds.
+
+
+##Algorithm and Analysis
+
+###TF-IDF
+
+From the statistical observations of chemical fragments we have made, we develop a heuristic, unsupervised learning algorithm for finding the boundaries of submolecules.
+
+In linguistics, Zipf's law has provided the basis for the automated recognition of *keywords* in a document.  This is done by ranking words according to their *TF-IDF* score, developed by Jones (1972).  Given a dataset *D*, the TF-IDF for a term *t* in a document *d* , is defined as:
 
 ![Eq 1.](./pics/tfidf.svg)
 
@@ -50,7 +86,11 @@ In order to guide retrosynthesis, our algorithm identifies atoms as likely sites
 	def rank(A,M,L)
 		submolecules <- Find all submolecules of M in library L
 		entropy <- sum the TF-IDF scores of the submolecules for which A is a member
-		return entropy ###ResultsThe following shows the results of our algorithm on a few molecules:
+		return entropy 
+
+###Results
+
+The following shows the results of our algorithm on a few molecules:
 
 ![Fig. 5](./pics/alpha_cyclodextrin.svg)
 
@@ -62,11 +102,23 @@ Figure 6. Sucrose
 
 ![Fig. 6](./pics/adeddu2.svg)
 
-Figure 7. (HO)2-PO-S-C11-EG6-OH## Future Work
+Figure 7. (HO)2-PO-S-C11-EG6-OH
+
+## Future Work
 ## Conclusions
-##Supporting Material - Zipf’s Law:
- - Performance Evaluation	- F Scores - Suggested Retrosynthetic _"cuts"_ of 100 compounds<!--We need to agree on a way to evaluate the confidence (or error), ie. the distance between the suggested retrosynthesis from "the State Of The Art"-->
-# References
+
+
+##Supporting Material
+
+ - Zipf’s Law:
+
+ - Performance Evaluation
+	- F Scores
+ - Suggested Retrosynthetic _"cuts"_ of 100 compounds
+<!--We need to agree on a way to evaluate the confidence (or error), ie. the distance between the suggested retrosynthesis from "the State Of The Art"-->
+
+
+# References
 
 1. Jones, K. S. A Statistical Interpretation Of Term Specifity And Its Application In Retrieval. Journal of Documentation 28, 11–21 (1972).
 
@@ -81,5 +133,3 @@ Figure 7. (HO)2-PO-S-C11-EG6-OH## Future Work
 6. Burroughs, S. M. & Tebbens, S. F. Upper-Truncated Power Law Distributions. Fractals 09, 209–222 (2001).
 
 
-# installation:
-there's no installation to do, just pull the repo. The scripts should be automatically able to run. The script can be run by using the alltogether.py file. 
