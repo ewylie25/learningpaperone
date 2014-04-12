@@ -1,0 +1,5 @@
+O=C(O[C@H]2O[C@@H]([C@@H](O[C@@H]1O[C@H](COC(=O)C)[C@@H](OC(=O)C)[C@H](OC(=O)C)[C@H]1OC(=O)C)[C@H](OC(=O)C)[C@H]2OC(=O)C)COC(=O)C)C
+c1cc2cc3ccc(cc4ccc(cc5ccc(cc1n2)[nH]5)n4)[nH]3
+Cc1/c/2c/c3n/c(c\c4c(c(c([n-]4)/cc/5\nc(/cc(/c1CCC(=O)O)\[n-]2)C(=C5C)CCC(=O)O)C)C=C)/C(=C3C=C)C.[Fe+2]
+CCCCCCCCCCOCCOCCOCCOCCOCCOCCO
+C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@H](O2)[C@@H]([C@H]7O)O)CO)CO)CO)CO)CO)O)O)O

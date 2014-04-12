@@ -1,0 +1,82 @@
+  Delimited text load from "smarts_stats_10.tsv"
+  LoadWave is unable to find column names on line 0
+  Data length: 242, waves: counts, fragment
+•  LoadWave/J/D/W/K=0 "Macintosh HD:Users:deddu:Documents:workspace:MLtests:misc:smarts_stats_30.tsv"
+  Delimited text load from "smarts_stats_30.tsv"
+  LoadWave is unable to find column names on line 0
+  Data length: 374, waves: counts30c, frags30c
+•Edit/K=0 root:counts30c;DelayUpdate
+•  LoadWave/J/D/W/K=0 "Macintosh HD:Users:deddu:Documents:workspace:MLtests:misc:smarts_stats_60.tsv"
+  Delimited text load from "smarts_stats_60.tsv"
+  LoadWave is unable to find column names on line 0
+  Data length: 673, waves: counts60c, frags60c
+•DisplayHelpTopic "Igor Pro Programming"
+•String a="hey"
+•print "ciaoc ",a
+  ciaoc   hey
+•print "ciaoc" + a
+  ciaochey
+•print a
+  hey
+•print a[2]
+  y
+•LoadWave/J/D/W/A/K=0 "Macintosh HD:Users:deddu:Documents:workspace:MLtests:misc:smarts_stats_100.tsv"
+  Delimited text load from "smarts_stats_100.tsv"
+  LoadWave is unable to find column names on line 0
+  Data length: 1331, waves: wave0, wave1
+•LoadWave/J/D/W/A/K=0 "Macintosh HD:Users:deddu:Documents:workspace:MLtests:misc:smarts_stats_200.tsv"
+  Delimited text load from "smarts_stats_200.tsv"
+  LoadWave is unable to find column names on line 0
+  Data length: 3365, waves: wave2, wave3
+•LoadWave/J/D/W/A/K=0 "Macintosh HD:Users:deddu:Documents:workspace:MLtests:misc:smarts_stats_400.tsv"
+  Delimited text load from "smarts_stats_400.tsv"
+  LoadWave is unable to find column names on line 0
+  Data length: 8305, waves: wave4, wave5
+•LoadWave/J/D/W/A/K=0 "Macintosh HD:Users:deddu:Documents:workspace:MLtests:misc:english_segmentation:en_stats_10.tsv"
+  Delimited text load from "en_stats_10.tsv"
+  LoadWave is unable to find column names on line 0
+  Data length: 40, waves: wave6, wave7
+•LoadWave/J/D/W/A/K=0 "Macintosh HD:Users:deddu:Documents:workspace:MLtests:misc:english_segmentation:en_stats_30.tsv"
+  Delimited text load from "en_stats_30.tsv"
+  LoadWave is unable to find column names on line 0
+  Data length: 209, waves: wave8, wave9
+•LoadWave/J/D/W/A/K=0 "Macintosh HD:Users:deddu:Documents:workspace:MLtests:misc:english_segmentation:en_stats_60.tsv"
+  Delimited text load from "en_stats_60.tsv"
+  LoadWave is unable to find column names on line 0
+  Data length: 636, waves: wave10, wave11, wave12
+•LoadWave/J/D/W/A/K=0 "Macintosh HD:Users:deddu:Documents:workspace:MLtests:misc:english_segmentation:en_stats_100.tsv"
+  Delimited text load from "en_stats_100.tsv"
+  LoadWave is unable to find column names on line 0
+  Data length: 1389, waves: wave13, wave14
+•LoadWave/J/D/W/A/K=0 "Macintosh HD:Users:deddu:Documents:workspace:MLtests:misc:english_segmentation:en_stats_200.tsv"
+  Delimited text load from "en_stats_200.tsv"
+  LoadWave is unable to find column names on line 0
+  Data length: 3345, waves: wave15, wave16, wave17
+•LoadWave/J/D/W/A/K=0 "Macintosh HD:Users:deddu:Documents:workspace:MLtests:misc:english_segmentation:en_stats_400.tsv"
+  Delimited text load from "en_stats_400.tsv"
+  LoadWave is unable to find column names on line 0
+  Data length: 8146, waves: wave18, wave19, wave20
+•LoadWave/J/D/W/A/K=0 "Macintosh HD:Users:deddu:Documents:workspace:MLtests:misc:fg_smarts_stats.tsv"
+  Delimited text load from "fg_smarts_stats.tsv"
+  LoadWave is unable to find column names on line 0
+  Data length: 207, waves: wave21, wave22
+•Edit counts,fragment,counts30c,frags30c,counts60c,frags60c,wave0,wave1,wave2;DelayUpdate
+•AppendToTable wave3,wave4,wave5,wave6,wave7,wave8,wave9,wave10,wave11,wave12;DelayUpdate
+•AppendToTable wave13,wave14,wave15,wave16,wave17,wave18,wave19,wave20,wave21;DelayUpdate
+•AppendToTable wave22
+•Rename counts,counts_10_c; 
+•Rename counts30c,counts_30_c; 
+•Rename counts60c,counts_60_c; 
+•Rename wave0,counts_100_c; 
+•Rename wave2,counts_200_c; 
+•Rename wave4,counts_400_c; 
+•Rename wave6,counts_10_e; 
+•Rename wave8,counts_20_e; 
+•Rename wave10,counts_40_e; 
+•Rename counts_40_e,counts_60_e; 
+•Rename wave12,counts_100_e; 
+•Rename counts_100_e,trash; 
+•Rename wave13,counts_100_e; 
+•Rename wave15,counts_200_e; 
+•Rename wave18,counts_400_e; 
+•Rename wave21,counts_fg; 
