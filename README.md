@@ -5,7 +5,7 @@
 # Installation:
 there's no installation to do, just pull the repo.  `git pull ...`
 
-The scripts should be automatically able to run, provided that all the dependencies are satisfied. Requirements are installable with `pip install scipy numpy sklearn`. 
+The scripts should be automatically able to run, provided that all the dependencies are satisfied. Requirements depends on your machine but are easy_installable with `pip install`. e.g: `pip install scipy numpy sklearn`. 
 
 # Usage:
 
@@ -27,7 +27,63 @@ The json file can subsequently used to color the bonds of a list of molecules, u
 
 The english_segmentation folder contains scripts to perform the same segmentation on top of english words.
 
-Further examples can be found in the Makefile.
+Further examples can be found in the Makefile. Images and material for the paper are available in the assets folder.
+
+# FAQ:
+### How is the freequncy plot vs. rank plot is created (the one that shows English = chemistry). Pls explain step by step, define all terms used etc -- for non specialists pls ?
+
+**chemistry**:
+
+```
+we randomly select a certain number of molecules from a natural products database: 10,30,60,100,200,400 Those are the "corpus".
+		- those are combined to create the "fragment dictionary". The molecules are combined in the following way: 
+		  for each molecule in the corpus
+		  	for eachother molecule remaining
+				the two are compared to find the MCS. This means that the two graph representations of the molecules are superposed and the largest common substructure is selected. (I.e. every atom and bond is identical in both structures.)
+				The largest common substructure is saved in the "fragment dictionary". Chirality is ignored. 
+		The number of times each fragment in the fragment dictionary matches succesfully every molecule is counted.
+		The fragments are sorted by the number of succesful matches. The ordinal position is the "rank". 
+		The number of hits is divided by the number of molecules in the database, i.e. 10.000, and this is the frequency.
+```	
+	
+**english:**
+	
+```	
+We make a database of 10 000 sentences from the english wikipedia. 
+		10,30,60,100,200,400 of those sentences are randomly selected. This is our "corpus".
+		- the sentences are combined to create the "fragment dictionary". The sentences are combined in the following way:
+			for each sentence in the corpus:
+				for each other sentence remaining:
+					the two, and their reversed version are compared to find the Maximum common substring. (i.e. "today we eat shrimps".reverse = "spmirhs tae ew yadot")
+					the maximum common substrings are saved in the fragment dictionary.
+		The number of times each fragment in the fragment dictionary matches succesfully every sentence is counted.
+		The fragments are sorted by the number of succesful matches. The ordinal position is the "rank". 
+		The number of hits is divided by the number of sentences in the database, i.e. 10.000, and this is the frequency.
+```
+
+
+### Can you give a Detailed description of the algorithm for finding symmetry and "high-information bonds"? Pls make it simple/easy to write.
+
+```
+	- we prepare a fragment dictionary, as described previously, from 10,000 molecules.
+	- we select our target molecule. In Natural language processing, this will be called "document".
+	for every atom/bond in the molecule
+		for every matching fragment in the dictionary
+			 we compute how many matches it has in the fragment dictionary. 
+			 we compute how many matches it has in the current molecule.
+	 		(we consider atom type, hybridization and first neighbors for atoms, the same properties for both connected atoms for the bonds)
+
+		we weight the result using Tf/idF scores:
+			*Tf* stands for Term Frequency, it is the frequency of the fragment vs the corpus, i.e. the total number of successful matches divided by the number of fragments in the dictionary.
+			*IDF* stands for "inverse document frequency": it is the number of times a "word" is mentioned in the current document weighted by the number of words in the document. In our case, is the number of equivalent atoms/bonds in the molecule, weighted vs the total number of atoms/bonds.  
+		we compute our tf/idf score  as tf*idf.
+		
+		we sum the tf/idf scores per each atom/bond
+
+	we then color each atom/bond proportionally to the tf/idf score. (brighter green = higher score)
+```
+
+
 
 
 
