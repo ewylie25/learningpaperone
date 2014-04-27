@@ -1,0 +1,852 @@
+﻿FN Thomson Reuters Web of Science™
+VR 1.0
+PT J
+AU Barsalou, LW
+TI Perceptual symbol systems
+SO BEHAVIORAL AND BRAIN SCIENCES
+VL 22
+IS 4
+BP 577
+EP +
+PD AUG 1999
+PY 1999
+AB Prior to the twentieth century, theories of knowledge were inherently
+   perceptual. Since then, developments in logic, statistics, and
+   programming languages have inspired amodal theories that rest on
+   principles fundamentally different from those underlying perception. In
+   addition, perceptual approaches have become widely viewed as untenable
+   because they are assumed to implement recording systems, not conceptual
+   systems. A perceptual theory of knowledge is developed here in the
+   context of current cognitive science and neuroscience. During perceptual
+   experience, association areas in the brain capture bottom-up patterns of
+   activation in sensory-motor areas. Later, in a top-down manner,
+   association areas partially reactivate sensory-motor areas to implement
+   perceptual symbols. The storage and reactivation of perceptual symbols
+   operates at the level of perceptual components - not at the level of
+   holistic perceptual experiences. Through the use of selective attention,
+   schematic representations of perceptual components are extracted from
+   experience and stored in memory (e.g., individual memories of green,
+   purr, hot). As memories of the same component become organized around a
+   common frame, they implement a simulator that produces limitless
+   simulations of the component (e.g., simulations of purr). Not only do
+   such simulators develop for aspects of sensory experience, they also
+   develop for aspects of proprioception (e.g., lift, run) and
+   introspection (e.g., compare, memory, happy, hungry). Once established,
+   these simulators implement a basic conceptual system that represents
+   types, supports categorization, and produces categorical inferences.
+   These simulators further support productivity, propositions, and
+   abstract concepts, thereby implementing a fully functional conceptual
+   system. Productivity results from integrating simulators combinatorially
+   and recursively to produce complex simulations. Propositions result from
+   binding simulators to perceived individuals to represent type-token
+   relations. Abstract concepts are grounded in complex simulations of
+   combined physical and introspective events. Thus, a perceptual theory of
+   knowledge can implement a fully functional conceptual system while
+   avoiding problems associated with amodal symbol systems. Implications
+   far cognition, neuroscience, evolution, development, and artificial
+   intelligence are explored.
+TC 1526
+ZB 435
+Z8 25
+ZS 5
+Z9 1560
+SN 0140-525X
+UT WOS:000083668300001
+ER
+
+PT J
+AU Beissbarth, T
+   Speed, TP
+TI GOstat: find statistically overrepresented Gene Ontologies within a
+   group of genes
+SO BIOINFORMATICS
+VL 20
+IS 9
+BP 1464
+EP 1465
+DI 10.1093/bioinformatics/bth088
+PD JUN 12 2004
+PY 2004
+AB Modern experimental techniques, as for example DNA microarrays, as a
+   result usually produce a long list of genes, which are potentially
+   interesting in the analyzed process. In order to gain biological
+   understanding from this type of data, it is necessary to analyze the
+   functional annotations of all genes in this list. The Gene-Ontology (GO)
+   database provides a useful tool to annotate and analyze the functions of
+   a large number of genes. Here, we introduce a tool that utilizes this
+   information to obtain an understanding of which annotations are typical
+   for the analyzed list of genes. This program automatically obtains the
+   GO annotations from a database and generates statistics of which
+   annotations are overrepresented in the analyzed list of genes. This
+   results in a list of GO terms sorted by their specificity.
+RI Speed, Terence /B-8085-2009
+TC 628
+ZB 539
+Z8 9
+ZS 1
+Z9 649
+SN 1367-4803
+UT WOS:000222125600018
+ER
+
+PT J
+AU Berger, AL
+   DellaPietra, SA
+   DellaPietra, VJ
+TI A maximum entropy approach to natural language processing
+SO COMPUTATIONAL LINGUISTICS
+VL 22
+IS 1
+BP 39
+EP 71
+PD MAR 1996
+PY 1996
+AB The concept of maximum entropy can be traced back along multiple threads
+   to Biblical times. Only recently, however, have computers become
+   powerful enough to permit the widescale application of this concept to
+   real world problems in statistical estimation and pattern recognition.
+   In this paper, we describe a method for statistical modeling based on
+   maximum entropy. We present a maximum-likelihood approach for
+   automatically constructing maximum entropy models and describe how to
+   implement this approach efficiently, using as examples several problems
+   in natural language processing.
+TC 521
+ZB 41
+Z8 57
+ZS 0
+Z9 578
+SN 0891-2017
+UT WOS:A1996UD41700002
+ER
+
+PT J
+AU Hofmann, T
+TI Unsupervised learning by probabilistic latent semantic analysis
+SO MACHINE LEARNING
+VL 42
+IS 1-2
+BP 177
+EP 196
+DI 10.1023/A:1007617005950
+PD JAN 2001
+PY 2001
+AB This paper presents a novel statistical method for factor analysis of
+   binary and count data which is closely related to a technique known as
+   Latent Semantic Analysis. In contrast to the latter method which stems
+   from linear algebra and performs a Singular Value Decomposition of
+   co-occurrence tables, the proposed technique uses a generative latent
+   class model to perform a probabilistic mixture decomposition. This
+   results in a more principled approach with a solid foundation in
+   statistical inference. More precisely, we propose to make use of a
+   temperature controlled version of the Expectation Maximization algorithm
+   for model fitting, which has shown excellent performance in practice.
+   Probabilistic Latent Semantic Analysis has many applications, most
+   prominently in information retrieval, natural language processing,
+   machine learning from text, and in related areas. The paper presents
+   perplexity results for different types of text and linguistic data
+   collections and discusses an application in automated document indexing.
+   The experiments indicate substantial and consistent improvements of the
+   probabilistic method over standard Latent Semantic Analysis.
+TC 477
+ZB 29
+Z8 60
+ZS 0
+Z9 531
+SN 0885-6125
+UT WOS:000166114100008
+ER
+
+PT J
+AU Carneiro, Gustavo
+   Chan, Antoni B.
+   Moreno, Pedro J.
+   Vasconcelos, Nuno
+TI Supervised learning of semantic classes for image annotation and
+   retrieval
+SO IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE
+VL 29
+IS 3
+BP 394
+EP 410
+DI 10.1109/TPAMI.2007.61
+PD MAR 2007
+PY 2007
+AB A probabilistic formulation for semantic image annotation and retrieval
+   is proposed. Annotation and retrieval are posed as classification
+   problems where each class is defined as the group of database images
+   labeled with a common semantic label. It is shown that, by establishing
+   this one-to-one correspondence between semantic labels and semantic
+   classes, a minimum probability of error annotation and retrieval are
+   feasible with algorithms that are 1) conceptually simple, 2)
+   computationally efficient, and 3) do not require prior semantic
+   segmentation of training images. In particular, images are represented
+   as bags of localized feature vectors, a mixture density estimated for
+   each image, and the mixtures associated with all images annotated with a
+   common semantic label pooled into a density estimate for the
+   corresponding semantic class. This pooling is justified by a multiple
+   instance learning argument and performed efficiently with a hierarchical
+   extension of expectation-maximization. The benefits of the supervised
+   formulation over the more complex, and currently popular, joint modeling
+   of semantic label and visual feature distributions are illustrated
+   through theoretical arguments and extensive experiments. The supervised
+   formulation is shown to achieve higher accuracy than various previously
+   published methods at a fraction of their computational cost. Finally,
+   the proposed method is shown to be fairly robust to parameter tuning.
+RI Chan, Antoni/D-7858-2013
+TC 177
+ZB 7
+Z8 21
+ZS 0
+Z9 198
+SN 0162-8828
+UT WOS:000243420500003
+ER
+
+PT J
+AU Cohen, AM
+   Hersh, WR
+TI A survey of current work in biomedical text mining
+SO BRIEFINGS IN BIOINFORMATICS
+VL 6
+IS 1
+BP 57
+EP 71
+DI 10.1093/bib/6.1.57
+PD MAR 2005
+PY 2005
+AB The volume of published biomedical research, and therefore the
+   underlying biomedical knowledge base, is expanding at an increasing
+   rate. Among the tools that can aid researchers in coping with this
+   information overload are text mining and knowledge extraction.
+   Significant progress has been made in applying text mining to named
+   entity recognition, text classification, terminology extraction,
+   relationship extraction and hypothesis generation. Several research
+   groups are constructing integrated flexible text-mining systems intended
+   for multiple uses. The major challenge of biomedical text mining over
+   the next 5-10 years is to make these systems useful to biomedical
+   researchers. This will require enhanced access to full text, better
+   understanding of the feature space of biomedical literature, better
+   methods for measuring the usefulness of systems to users, and continued
+   cooperation with the biomedical research community to ensure that their
+   needs are addressed.
+TC 177
+ZB 100
+Z8 4
+ZS 1
+Z9 185
+SN 1467-5463
+UT WOS:000228587400006
+ER
+
+PT J
+AU HRIPCSAK, G
+   FRIEDMAN, C
+   ALDERSON, PO
+   DUMOUCHEL, W
+   JOHNSON, SB
+   CLAYTON, PD
+TI UNLOCKING CLINICAL-DATA FROM NARRATIVE REPORTS - A STUDY OF
+   NATURAL-LANGUAGE PROCESSING
+SO ANNALS OF INTERNAL MEDICINE
+VL 122
+IS 9
+BP 681
+EP 688
+PD MAY 1 1995
+PY 1995
+AB Objective: To evaluate the automated detection of clinical conditions
+   described in narrative reports.
+   Design: Automated methods and human experts detected the presence or
+   absence of six clinical conditions in 200 admission chest radiograph
+   reports.
+   Study Subjects: A computerized, general-purpose natural language
+   processor; 6 internists; 6 radiologists; 6 lay persons; and 3 other
+   computer methods.
+   Main Outcome Measures: Intersubject disagreement was quantified by
+   ''distance'' (the average number of clinical conditions per report on
+   which two subjects disagreed) and by sensitivity and specificity with
+   respect to the physicians.
+   Results: Using a majority vote, physicians detected 101 conditions in
+   the 200 reports (0.51 per report); the most common condition was acute
+   bacterial pneumonia (prevalence, 0.14), and the least common was chronic
+   obstructive pulmonary disease (prevalence, 0.03). Pairs of physicians
+   disagreed on the presence of at least 1 condition for an average of 20%
+   of reports. The average intersubject distance among physicians was 0.24
+   (95% CI, 0.19 to 0.29) out of a maximum possible distance of 6. No
+   physician had a significantly greater distance than the average. The
+   average distance of the natural language processor from the physicians
+   was 0.26 (CI, 0.21 to 0.32; not significantly greater than the average
+   among physicians). Lay persons and alternative computer methods had
+   significantly greater distance from the physicians (all >0.5). The
+   natural language processor had a sensitivity of 81% (CI, 73% to 87%) and
+   a specificity of 98% (CI, 97% to 99%); physicians had an average
+   sensitivity of 85% and an average specificity of 98%.
+   Conclusions: Physicians disagreed on the interpretation of narrative
+   reports, but this was not caused by outlier physicians or a consistent
+   difference in the way internists and radiologists read reports. The
+   natural language processor was not distinguishable from the physicians
+   and was superior to all other comparison subjects. Although the domain
+   of this study was restricted (six clinical conditions in chest
+   radiographs), natural language processing seems to have the potential to
+   extract clinical information from narrative reports in a manner that
+   will support automated decision-support and clinical research.
+TC 167
+ZB 52
+Z8 1
+ZS 1
+Z9 168
+SN 0003-4819
+UT WOS:A1995QV15100007
+ER
+
+PT J
+AU Michel, Jean-Baptiste
+   Shen, Yuan Kui
+   Aiden, Aviva Presser
+   Veres, Adrian
+   Gray, Matthew K.
+   Pickett, Joseph P.
+   Hoiberg, Dale
+   Clancy, Dan
+   Norvig, Peter
+   Orwant, Jon
+   Pinker, Steven
+   Nowak, Martin A.
+   Aiden, Erez Lieberman
+CA Google Books Team
+TI Quantitative Analysis of Culture Using Millions of Digitized Books
+SO SCIENCE
+VL 331
+IS 6014
+BP 176
+EP 182
+DI 10.1126/science.1199644
+PD JAN 14 2011
+PY 2011
+AB We constructed a corpus of digitized texts containing about 4% of all
+   books ever printed. Analysis of this corpus enables us to investigate
+   cultural trends quantitatively. We survey the vast terrain of
+   'culturomics,' focusing on linguistic and cultural phenomena that were
+   reflected in the English language between 1800 and 2000. We show how
+   this approach can provide insights about fields as diverse as
+   lexicography, the evolution of grammar, collective memory, the adoption
+   of technology, the pursuit of fame, censorship, and historical
+   epidemiology. Culturomics extends the boundaries of rigorous
+   quantitative inquiry to a wide array of new phenomena spanning the
+   social sciences and the humanities.
+RI Nowak, Martin/A-6977-2008
+TC 164
+ZB 35
+Z8 0
+ZS 2
+Z9 164
+SN 0036-8075
+UT WOS:000286433100032
+ER
+
+PT J
+AU Lee, CS
+   Jian, ZW
+   Huang, LK
+TI A fuzzy ontology and its application to news summarization
+SO IEEE TRANSACTIONS ON SYSTEMS MAN AND CYBERNETICS PART B-CYBERNETICS
+VL 35
+IS 5
+BP 859
+EP 880
+DI 10.1109/TSMCB.2005.845032
+PD OCT 2005
+PY 2005
+AB In this paper, a fuzzy ontology and its application to news
+   summarization are presented. The fuzzy ontology with fuzzy concepts is
+   an extension of the domain ontology with crisp concepts. It is more
+   suitable to describe the domain knowledge than domain ontology for
+   solving the uncertainty reasoning problems. First, the domain ontology
+   with various events of news is predefined by domain experts. The
+   document preprocessing mechanism will generate the meaningful terms
+   based on the news corpus and the Chinese news dictionary defined by the
+   domain expert. Then, the meaningful terms will be classified according
+   to the events of the news by the term classifier. The fuzzy inference
+   mechanism will generate the membership degrees for each fuzzy concept of
+   the fuzzy ontology. Every fuzzy concept has a set of membership degrees
+   associated with various events of the domain ontology. In addition, a
+   news agent based on the fuzzy ontology is also developed for news
+   summarization. The news agent contains five modules, including a
+   retrieval agent, a document preprocessing mechanism, a sentence path
+   extractor, a sentence generator, and a sentence filter to perform news
+   summarization. Furthermore, we construct an experimental website to test
+   the proposed approach. The experimental results show that the news agent
+   based on the fuzzy ontology can effectively operate for news
+   summarization.
+TC 150
+ZB 1
+Z8 5
+ZS 0
+Z9 155
+SN 1083-4419
+UT WOS:000232384200002
+ER
+
+PT J
+AU Beeferman, D
+   Berger, A
+   Lafferty, J
+TI Statistical models for text segmentation
+SO MACHINE LEARNING
+VL 34
+IS 1-3
+BP 177
+EP 210
+DI 10.1023/A:1007506220214
+PD FEB 1999
+PY 1999
+AB This paper introduces a new statistical approach to automatically
+   partitioning text into coherent segments. The approach is based on a
+   technique that incrementally builds an exponential model to extract
+   features that are correlated with the presence of boundaries in labeled
+   training text. The models use two classes of features: topicality
+   features that use adaptive language models in a novel way to detect
+   broad changes of topic, and cue-word features that detect occurrences of
+   specific words, which may he domain-specific, that tend to be used near
+   segment boundaries, Assessment of our approach on quantitative and
+   qualitative grounds demonstrates its effectiveness in two very different
+   domains, Wall Street Journal news articles and television broadcast news
+   story transcripts. Quantitative results on these domains are presented
+   using a new probabilistically motivated error metric, which combines
+   precision and recall in a natural and flexible way. This metric is used
+   to make a quantitative assessment of the relative contributions of the
+   different feature types, as well as a comparison with decision trees and
+   previously proposed text segmentation algorithms.
+CT 1997 Conference on Empirical Methods in Natural Language Processing
+CY 1997
+CL PROVIDENCE, RHODE ISLAND
+TC 143
+ZB 6
+Z8 8
+ZS 0
+Z9 151
+SN 0885-6125
+UT WOS:000079753100008
+ER
+
+PT J
+AU KUKICH, K
+TI TECHNIQUES FOR AUTOMATICALLY CORRECTING WORDS IN TEXT
+SO COMPUTING SURVEYS
+VL 24
+IS 4
+BP 377
+EP 439
+PD DEC 1992
+PY 1992
+AB Research aimed at correcting words in text has focused on three
+   progressively more difficult problems: (1) nonword error detection; (2)
+   isolated-word error correction; and (3) context-dependent word
+   correction. In response to the first problem, efficient pattern-matching
+   and n-gram analysis techniques have been developed for detecting strings
+   that do not appear in a given word list. In response to the second
+   problem, a variety of general and application-specific spelling
+   correction techniques have been developed. Some of them were based on
+   detailed studies of spelling error patterns. In response to the third
+   problem, a few experiments using natural-language-processing tools or
+   statistical-language models have been carried out. This article surveys
+   documented findings on spelling error patterns, provides descriptions of
+   various nonword detection and isolated-word error correction techniques,
+   reviews the state of the art of context-dependent word correction
+   techniques, and discusses research issues related to all three areas of
+   automatic error correction in text.
+TC 124
+ZB 2
+Z8 1
+ZS 0
+Z9 124
+SN 0360-0300
+UT WOS:A1992KP60800002
+ER
+
+PT J
+AU Daraselia, N
+   Yuryev, A
+   Egorov, S
+   Novichkova, S
+   Nikitin, A
+   Mazo, I
+TI Extracting human protein interactions from MEDLINE using a full-sentence
+   parser
+SO BIOINFORMATICS
+VL 20
+IS 5
+BP 604
+EP U43
+DI 10.1093/bioinformatics/btg452
+PD MAR 22 2004
+PY 2004
+AB Motivation: The living cell is a complex machine that depends on the
+   proper functioning of its numerous parts, including proteins.
+   Understanding protein functions and how they modify and regulate each
+   other is the next great challenge for life-sciences researchers. The
+   collective knowledge about protein functions and pathways is scattered
+   throughout numerous publications in scientific journals. Bringing the
+   relevant information together becomes a bottleneck in a research and
+   discovery process. The volume of such information grows exponentially,
+   which renders manual curation impractical. As a viable alternative,
+   automated literature processing tools could be employed to extract and
+   organize biological data into a knowledge base, making it amenable to
+   computational analysis and data mining.
+   Results: We present MedScan, a completely automated natural language
+   processing-based information extraction system. We have used MedScan to
+   extract 2976 interactions between human proteins from MEDLINE abstracts
+   dated after 1988. The precision of the extracted information was found
+   to be 91%. Comparison with the existing protein interaction databases
+   BIND and DIP revealed that 96% of extracted information is novel. The
+   recall rate of MedScan was found to be 21%. Additional experiments with
+   MedScan suggest that MEDLINE is a unique source of diverse protein
+   function information, which can be extracted in a completely automated
+   way with a reasonably high precision. Further directions of the MedScan
+   technology improvement are discussed.
+TC 111
+ZB 72
+Z8 6
+ZS 0
+Z9 123
+SN 1367-4803
+UT WOS:000220485300002
+ER
+
+PT J
+AU Settles, B
+TI ABNER: an open source tool for automatically tagging genes, proteins and
+   other entity names in text
+SO BIOINFORMATICS
+VL 21
+IS 14
+BP 3191
+EP 3192
+DI 10.1093/bioinformatics/bti475
+PD JUL 15 2005
+PY 2005
+AB ABNER ( A Biomedical Named Entity Recognizer) is an open source software
+   tool for molecular biology text mining. At its core is a machine
+   learning system using conditional random fields with a variety of
+   orthographic and contextual features. The latest version is 1.5, which
+   has an intuitive graphical interface and includes two modules for
+   tagging entities ( e. g. protein and cell line) trained on standard
+   corpora, for which performance is roughly state of the art. It also
+   includes a Java application programming interface allowing users to
+   incorporate ABNER into their own systems and train models on new
+   corpora.
+TC 112
+ZB 80
+Z8 3
+ZS 0
+Z9 118
+SN 1367-4803
+UT WOS:000230204400026
+ER
+
+PT J
+AU Laender, AHF
+   Ribeiro-Neto, BA
+   da Silva, AS
+   Teixeira, JS
+TI A brief survey of Web data extraction tools
+SO SIGMOD RECORD
+VL 31
+IS 2
+BP 84
+EP 93
+PD JUN 2002
+PY 2002
+AB In the last few years, several works in the literature have addressed
+   the problem of data extraction from Web pages. The importance of this
+   problem derives from the fact that, once extracted, the data can be
+   handled in a way similar to instances of a traditional database. The
+   approaches proposed in the literature to address the problem of Web data
+   extraction use techniques borrowed from areas such as natural language
+   processing, languages and grammars, machine learning, information
+   retrieval, databases, and ontologies. As a consequence, they present
+   very distinct features and capabilities which make a direct comparison
+   difficult to be done. In this paper, we propose a taxonomy for
+   characterizing Web data extraction tools, briefly survey major Web data
+   extraction tools described in the literature, and provide a qualitative
+   analysis of them. Hopefully, this work will stimulate other studies
+   aimed at a more comprehensive analysis of data extraction approaches and
+   tools for Web data.
+TC 94
+ZB 0
+Z8 14
+ZS 0
+Z9 108
+SN 0163-5808
+UT WOS:000176108100009
+ER
+
+PT J
+AU Sproat, R
+   Shih, C
+   Gale, W
+   Chang, N
+TI A stochastic finite-state word-segmentation algorithm for Chinese
+SO COMPUTATIONAL LINGUISTICS
+VL 22
+IS 3
+BP 377
+EP 404
+PD SEP 1996
+PY 1996
+AB The initial stage of text analysis for any NLP task usually involves the
+   tokenization of the input into words. For languages like English one can
+   assume, to a first approximation, that word boundaries are given by
+   whitespace or punctuation. In various Asian languages, including
+   Chinese, on the other hand, whitespace is never used to delimit words,
+   so one must resort to lexical information to ''reconstruct'' the
+   word-boundary information. In this paper we present a stochastic
+   finite-state model wherein the basic workhorse is the weighted
+   finite-state transducer. The model segments Chinese text into dictionary
+   entries and words derived by various productive lexical processes,
+   and-since the primary intended application of this model is to
+   text-to-speech synthesis-provides pronunciations for these words. We
+   evaluate the system's performance by comparing its segmentation
+   ''judgments'' with the judgments of a pool of human segmenters, and the
+   system is shown to perform quite well.
+TC 65
+ZB 2
+Z8 5
+ZS 0
+Z9 69
+SN 0891-2017
+UT WOS:A1996VT54000004
+ER
+
+PT J
+AU Halevy, Alon
+   Norvig, Peter
+   Pereira, Fernando
+TI The Unreasonable Effectiveness of Data
+SO IEEE INTELLIGENT SYSTEMS
+VL 24
+IS 2
+BP 8
+EP 12
+PD MAR-APR 2009
+PY 2009
+TC 58
+ZB 8
+Z8 0
+ZS 0
+Z9 58
+SN 1541-1672
+UT WOS:000264397500004
+ER
+
+PT J
+AU Guzella, Thiago S.
+   Caminhas, Walmir M.
+TI A review of machine learning approaches to Spam filtering
+SO EXPERT SYSTEMS WITH APPLICATIONS
+VL 36
+IS 7
+BP 10206
+EP 10222
+DI 10.1016/j.eswa.2009.02.037
+PD SEP 2009
+PY 2009
+AB In this paper, we present a comprehensive review of recent developments
+   in the application of machine learning algorithms to Spam filtering,
+   focusing on both textual- and image-based approaches. Instead of
+   considering Spam filtering as a standard classification problem, we
+   highlight the importance of considering specific characteristics of the
+   problem, especially concept drift, in designing new filters. Two
+   particularly important aspects not widely recognized in the literature
+   are discussed: the difficulties in updating a classifier based on the
+   bag-of-words representation and a major difference between two early
+   naive Bayes models. Overall, we conclude that while important
+   advancements have been made in the last years, several aspects remain to
+   be explored, especially under more realistic evaluation settings. (C)
+   2009 Elsevier Ltd. All rights reserved.
+RI caminhas, walmir/F-4332-2010
+TC 30
+ZB 0
+Z8 4
+ZS 0
+Z9 34
+SN 0957-4174
+UT WOS:000266851000001
+ER
+
+PT J
+AU Wang, Pu
+   Hu, Jian
+   Zeng, Hua-Jun
+   Chen, Zheng
+TI Using Wikipedia knowledge to improve text classification
+SO KNOWLEDGE AND INFORMATION SYSTEMS
+VL 19
+IS 3
+BP 265
+EP 281
+DI 10.1007/s10115-008-0152-4
+PD JUN 2009
+PY 2009
+AB Text classification has been widely used to assist users with the
+   discovery of useful information from the Internet. However, traditional
+   classification methods are based on the "Bag of Words" (BOW)
+   representation, which only accounts for term frequency in the documents,
+   and ignores important semantic relationships between key terms. To
+   overcome this problem, previous work attempted to enrich text
+   representation by means of manual intervention or automatic document
+   expansion. The achieved improvement is unfortunately very limited, due
+   to the poor coverage capability of the dictionary, and to the
+   ineffectiveness of term expansion. In this paper, we automatically
+   construct a thesaurus of concepts from Wikipedia. We then introduce a
+   unified framework to expand the BOW representation with semantic
+   relations (synonymy, hyponymy, and associative relations), and
+   demonstrate its efficacy in enhancing previous approaches for text
+   classification. Experimental results on several data sets show that the
+   proposed approach, integrated with the thesaurus built from Wikipedia,
+   can achieve significant improvements with respect to the baseline
+   algorithm.
+TC 28
+ZB 0
+Z8 0
+ZS 0
+Z9 28
+SN 0219-1377
+UT WOS:000266453600001
+ER
+
+PT J
+AU Dong, QW
+   Wang, XL
+   Lin, L
+TI Application of latent semantic analysis to protein remote homology
+   detection
+SO BIOINFORMATICS
+VL 22
+IS 3
+BP 285
+EP 290
+DI 10.1093/bioinformatics/bti801
+PD FEB 1 2006
+PY 2006
+AB Motivation: Remote homology detection between protein sequences is a
+   central problem in computational biology. The discriminative method such
+   as the support vector machine (SVM) is one of the most effective
+   methods. Many of the SVM-based methods focus on finding useful
+   representations of protein sequence, using either explicit feature
+   vector representations or kernel functions. Such representations may
+   suffer from the peaking phenomenon in many machine-learning methods
+   because the features are usually very large and noise data may be
+   introduced. Based on these observations, this research focuses on
+   feature extraction and efficient representation of protein vectors for
+   SVM protein classification.
+   Results: In this study, a latent semantic analysis (LSA) model, which is
+   an efficient feature extraction technique from natural language
+   processing, has been introduced in protein remote homology detection.
+   Several basic building blocks of protein sequences have been
+   investigated as the 'words' of 'protein sequence language', including
+   N-grams, patterns and motifs. Each protein sequence is taken as a
+   'document' that is composed of bags-of-word. The word-document matrix is
+   constructed first. The LSA is performed on the matrix to produce the
+   latent semantic representation vectors of protein sequences, leading to
+   noise-removal and smart description of protein sequences. The latent
+   semantic representation vectors are then evaluated by SVM. The method is
+   tested on the SCOP 1.53 database. The results show that the LSA model
+   significantly improves the performance of remote homology detection in
+   comparison with the basic formalisms. Furthermore, the performance of
+   this method is comparable with that of the complex kernel methods such
+   as SVM-LA and better than that of other sequence-based methods such as
+   PSI-BLAST and SVM-pairwise.
+TC 26
+ZB 20
+Z8 0
+ZS 0
+Z9 26
+SN 1367-4803
+UT WOS:000235277100005
+ER
+
+PT J
+AU BATES, M
+TI MODELS OF NATURAL-LANGUAGE UNDERSTANDING
+SO PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF
+   AMERICA
+VL 92
+IS 22
+BP 9977
+EP 9982
+DI 10.1073/pnas.92.22.9977
+PD OCT 24 1995
+PY 1995
+AB This paper surveys some of the fundamental problems in natural language
+   (NL) understanding (syntax, semantics, pragmatics, and discourse) and
+   the current approaches to solving them. Some recent developments in NL
+   processing include increased emphasis on corpus-based rather than
+   example- or intuition-based work, attempts to measure the coverage and
+   effectiveness of NL systems, dealing with discourse and dialogue
+   phenomena, and attempts to use both analytic and stochastic knowledge.
+   Critical areas for the future include grammars that are appropriate to
+   processing large amounts of real language; automatic (or at least
+   semiautomatic) methods for deriving models of syntax, semantics, and
+   pragmatics; self-adapting systems; and integration with speech
+   processing. Of particular importance are techniques that can be tuned to
+   such requirements as full versus partial understanding and spoken
+   language versus text. Portability (the ease with which one can configure
+   an NL system for a particular application) is one of the largest
+   barriers to application of this technology.
+CT Colloquium on Human-Machine Communication by Voice
+CY FEB 08-09, 1993
+CL ARNOLD & MABEL BECKMAN CTR, IRVINE, CA
+HO ARNOLD & MABEL BECKMAN CTR
+SP Natl Acad Sci
+TC 11
+ZB 5
+Z8 0
+ZS 0
+Z9 11
+SN 0027-8424
+UT WOS:A1995TB46700012
+ER
+
+EF
+
+
+	Henrik Leopold (auth.), Henrik Leopold (eds.)	Lecture Notes in Business Information Processing 168 
+Natural Language in Business Process Models: Theoretical Foundations, Techniques, and Applications
+978-3-319-04174-2, 978-3-319-04175-9	Springer International Publishing	2013
+
+	Horacio Saggion, Thierry Poibeau (auth.), Thierry Poibeau, Horacio Saggion, Jakub Piskorski, Roman Yangarber (eds.)	Theory and Applications of Natural Language Processing 
+Multi-source, Multilingual Information Extraction and Summarization
+978-3-642-28568-4, 978-3-642-28569-1	Springer Berlin Heidelberg	2013
+
+	Thierry Poibeau, Aline Villavicencio (auth.), Aline Villavicencio, Thierry Poibeau, Anna Korhonen, Afra Alishahi (eds.)	Theory and Applications of Natural Language Processing 
+Cognitive Aspects of Computational Language Acquisition
+978-3-642-31862-7, 978-3-642-31863-4	Springer Berlin Heidelberg
+
+
+Title:	Natural Language Processing with Python	Volume:
+Author(s):	Steven Bird, Ewan Klein, Edward Loper
+Series:		Periodical:	
+Publisher:	O'Reilly Media	City:	
+Year:	2009	Edition:	1
+Language:	English	Pages:	504
+ISBN:	9780596516499, 0596516495
+
+
+
+
+MAnning and schuetze 99
+Manning C.D., Schuetze H. Foundations of statistical language processing, Cambridge MA: MIT Press 1999
+
+spark jones 92
+Spark Jones K., Thesaurus, Encyclopedia of artificial intelligence. (ed. Shapiro)2nd Ed, New York: Wiley, 1992, 1605-1613
+
+	 Saggion, H. Poibeau T., Piskorski, P. 	Theory and Applications of Natural Language Processing 
+Multi-source, Multilingual Information Extraction and Summarization Springer Berlin Heidelberg	2013
+
+	Henrik Leopold (auth.), Henrik Leopold (eds.)	Lecture Notes in Business Information Processing 168 
+Natural Language in Business Process Models: Theoretical Foundations, Techniques, and Applications
+978-3-319-04174-2, 978-3-319-04175-9	Springer International Publishing	2013
+
+
+Soh,S. Wey,Y. Kowalczyk, B., Gothard, C. M., Baytekin, B. Gothard,N. Grzybowski, B.  Chem. Sci., 2012, 3, 1497
