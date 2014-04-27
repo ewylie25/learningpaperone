@@ -1,13 +1,34 @@
-# installation:
-there's no installation to do, just pull the repo. 
-The scripts should be automatically able to run, provided that all the dependencies are satisfied.
-the english_segmentation folder should be self-explanatory.
-then there are two main scripts - 
-one to build the dictionary, to generate the "stats", and one that from the stats scores every bond. 
-The script can be run by using the alltogether.py file. 
-examples are contained in the Makefile.
+# Machine Learning Chemistry - step 0.
 
-To generate color images, use the colorer tool from the colorer repo: https://github.com/deddu/colorer . 
+
+
+# Installation:
+there's no installation to do, just pull the repo.  `git pull ...`
+
+The scripts should be automatically able to run, provided that all the dependencies are satisfied. Requirements are installable with `pip install scipy numpy sklearn`. 
+
+# Usage:
+
+Passing a list of molecules in smiles format to the script named `commonfragments.py` will generate an output `stat` file. The fragments listed in the stat file are sorted from the less common to the most common. 
+
+e.g: 
+
+```
+python ./common_fragments.py 10000_smiles $NUMBER_OF_MOL_TO_USE_FOR_FRAGS stat_file_num_of_frags.tsv
+``` 
+
+Passing the stat file, and a list of molecules to `weight_bonds.py` and `krankemall_to_json.py` will output a smiles with atom indexed according to their TF-IDF score, or produce a json file containing those informations. Use `weight_bonds.py` to process one single molecule, or use `krankemall_to_json.py` to batch process multiple files.
+
+e.g: `./weight_bonds.py smarts_stats_400.txt 10000 "OCCO"` 
+
+e.g: `python krankemall_to_json.py smarts_stats_2000.tsv (wc -l smarts_stats_2000.tsv | cut -f 4 -d " " ) bottom_200_mols_from_the_random_1000_from_our_db.txt  bottom_200_mols_from_the_random_1000_from_our_db_2k.json` 
+
+The json file can subsequently used to color the bonds of a list of molecules, using the colorer software, you can find [here](https://github.com/deddu/colorer).
+
+The english_segmentation folder contains scripts to perform the same segmentation on top of english words.
+
+Further examples can be found in the Makefile.
+
 
 
 #Machine Learning the Language of Chemistry As A Guide for Retrosynthesis
