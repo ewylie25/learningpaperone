@@ -2,7 +2,7 @@ all: b01.svg b02.svg b03.svg b04.svg b05.svg b06.svg b07.svg b08.svg b09.svg b10
 	maloush.svg heme.svg heptane.svg random_db.svg random_db2.svg adeddu3.svg adeddu4.svg tropinone.svg adeddu_reaction.svg \
 	adeddu_reaction1.svg adeddu_reaction2.svg adeddu5.svg #Maitotoxin.svg sucrose.svg 
 
-smarts_stats.txt: 10000_smiles.txt smarts.txt
+smarts_stats.txt: source_SMILES/10000_smiles.txt smarts.txt
 	./common_fragments.py $^ $@
 
 random_db="Clc1cccc2cc3ccccc3cc12"
