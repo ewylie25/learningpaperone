@@ -6,6 +6,7 @@ from rdkit import Chem
 from collections import defaultdict, OrderedDict
 import struct
 from math import log
+import json
 
 
 def mkdir_p(path):
@@ -133,18 +134,17 @@ if __name__ == "__main__":
     # Compute the idf scores
     idfs = get_idfs(counts, numdocs)
     bweights = weight_bonds(words, idfs, mol)
-    # print bweights
+    print bweights
     ahmap = bond_weights_to_hmap(bweights, mol)
 
     # Label the atoms
     label_mol(mol)
     smiles = Chem.MolToSmiles(mol, isomericSmiles=True)
-    maxweights = sorted(ahmap.values())[-2:]
-    maxatoms = [idx + 1 for idx, weight in ahmap.items()
-                if weight in maxweights]
-    import json
+    # maxweights = sorted(ahmap.values())[-2:]
+    # maxatoms = [idx + 1 for idx, weight in ahmap.items()
+    #            if weight in maxweights]
 
-    print 500, 500, json.dumps({
+    print json.dumps({
         'smiles': smiles,
         'pairs': get_color_pairs(mol, bweights),
     })
