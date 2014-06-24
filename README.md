@@ -9,12 +9,12 @@ The scripts should be automatically able to run, provided that all the dependenc
 
 # Usage:
 
-Passing a list of molecules in smiles format to the script named `commonfragments.py` will generate an output `stat` file. The fragments listed in the stat file are sorted from the less common to the most common. 
+Passing a list of molecules in smiles format to the script named `common_fragments.py` will generate an output `stat` file. The fragments listed in the stat file are sorted from the less common to the most common. The number of molecules to use to produce the fragments is set on line 85 of `common_fragments.py`
 
 e.g: 
 
 ```
-python ./common_fragments.py 10000_smiles $NUMBER_OF_MOL_TO_USE_FOR_FRAGS stat_file_num_of_frags.tsv
+python ./common_fragments.py 10000_smiles smarts_file.txt stat_file_num_of_frags.tsv
 ``` 
 
 Passing the stat file, and a list of molecules to `weight_bonds.py` and `krankemall_to_json.py` will output a smiles with atom indexed according to their TF-IDF score, or produce a json file containing those informations. Use `weight_bonds.py` to process one single molecule, or use `krankemall_to_json.py` to batch process multiple files.
@@ -30,12 +30,12 @@ The english_segmentation folder contains scripts to perform the same segmentatio
 Further examples can be found in the Makefile. Images and material for the paper are available in the assets folder.
 
 # FAQ:
-### How is the freequncy plot vs. rank plot is created (the one that shows English = chemistry). Pls explain step by step, define all terms used etc -- for non specialists pls ?
+### How is the frequncy (or probability) vs. rank plot is created (the one that shows English = chemistry). Pls explain step by step, define all terms used etc -- for non specialists pls ?
 
 **chemistry**:
 
 ```
-we randomly select a certain number of molecules from a natural products database: 10,30,60,100,200,400 Those are the "corpus".
+We randomly select 100,000 molecules from a chemical database: 10, 30, 60, 100, 200, 400, 1000, and 2000 of those are randomly selected. Those are the "corpus".
 		- those are combined to create the "fragment dictionary". The molecules are combined in the following way: 
 		  for each molecule in the corpus
 		  	for eachother molecule remaining
@@ -43,14 +43,13 @@ we randomly select a certain number of molecules from a natural products databas
 				The largest common substructure is saved in the "fragment dictionary". Chirality is ignored. 
 		The number of times each fragment in the fragment dictionary matches succesfully every molecule is counted.
 		The fragments are sorted by the number of succesful matches. The ordinal position is the "rank". 
-		The number of hits is divided by the number of molecules in the database, i.e. 10.000, and this is the frequency.
+		The number of hits is divided by the successful matches for the fragment with rank 1 to give the relative frequency or the total number fragment occurances to give the probability mass function.
 ```	
 	
 **english:**
 	
 ```	
-We make a database of 10 000 sentences from the english wikipedia. 
-		10,30,60,100,200,400 of those sentences are randomly selected. This is our "corpus".
+We make a database of 10,000 sentences from the english wikipedia: 10, 30, 60, 100, 200, 400, 1000, and 2000 of those sentences are randomly selected. This is our "corpus".
 		- the sentences are combined to create the "fragment dictionary". The sentences are combined in the following way:
 			for each sentence in the corpus:
 				for each other sentence remaining:
@@ -58,14 +57,14 @@ We make a database of 10 000 sentences from the english wikipedia.
 					the maximum common substrings are saved in the fragment dictionary.
 		The number of times each fragment in the fragment dictionary matches succesfully every sentence is counted.
 		The fragments are sorted by the number of succesful matches. The ordinal position is the "rank". 
-		The number of hits is divided by the number of sentences in the database, i.e. 10.000, and this is the frequency.
+		The number of hits is divided by the successful matches for the fragment with rank 1 to give the relative frequency or the total number of fragment occurances to give the probability mass function.
 ```
 
 
 ### Can you give a Detailed description of the algorithm for finding symmetry and "high-information bonds"? Pls make it simple/easy to write.
 
 ```
-	- we prepare a fragment dictionary, as described previously, from 10,000 molecules.
+	- we prepare a fragment dictionary, as described previously, from 100,000 molecules.
 	- we select our target molecule. In Natural language processing, this will be called "document".
 	for every atom/bond in the molecule
 		for every matching fragment in the dictionary
